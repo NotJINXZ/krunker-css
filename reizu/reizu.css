@@ -16,12 +16,12 @@
 
 @font-face {
 	font-family: gamefont;
-	src: url(https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2);
+	src: url("https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2");
 }
 
 @font-face {
 	font-family: hpammo;
-	src: url(https://github.com/NotJINXZ/krunker-css/raw/main/Renogare.ttf);
+	src: url("https://github.com/NotJINXZ/krunker-css/raw/main/Renogare.ttf");
 }
 
 /* colours */
