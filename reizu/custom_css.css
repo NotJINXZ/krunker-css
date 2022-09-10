@@ -1,0 +1,23 @@
+@import url(https://raw.githubusercontent.com/NotJINXZ/krunker-css/main/reizu/reizu.css);
+
+:root {
+	--accent-color: #deadff;
+	--health-color: var(--accent-color);
+	--ammo-color: #fff;
+	--premium-color: #fbc02d;
+	--verified-color: #40c4ff;
+	--menu-bg-color: rgba(15, 15, 15, .2);
+	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
+	--ingame-bg-color: rgba(15, 15, 15, .2);
+	--text-transform: lowercase;
+}
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/inter/v2/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2);
+}
+
+@font-face {
+	font-family: hpammo;
+	src: url(https://github.com/NotJINXZ/krunker-css/raw/main/Renogare.ttf);
+}
