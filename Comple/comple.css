@@ -1,0 +1,573 @@
+:root {
+    /*Class Colors*/
+    --accent-color: aqua;
+    /*LeaderBoard*/
+    --color1: #fff;
+    /*Weapon Shadows*/
+    --color2: aqua;
+    /*Why i add this...?*/
+    --color3: black;
+    /*timer color*/
+    --time  : #8194ff;
+    /*ammo color*/
+    --ammoC : #fff;
+    /*Health color*/
+    --hpC   : #fff;
+    /*reload bar color*/
+    --relc1 : #95ff4b;
+    --relc2 : #53f0ff;
+    /*[R]Reloading color*/
+    --relmsg: pink;
+}
+
+@font-face {
+    font-family: gamefont;
+    src        : url(https://fonts.gstatic.com/s/fredokaone/v8/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2);
+}
+
+.discordSocial,
+div#onetrust-consent-sdk,
+.verticalSeparator,
+.redditSocial,
+#editorBtnM,
+#editorBtnM,
+#tlInfHold,
+#newsHolder,
+#aHolder,
+#faceItIconM,
+.weapKey {
+    display: none !important
+}
+
+.headerBarRight {
+    background: transparent;
+}
+
+#menuItemContainer {
+    border-right  : 4px white solid;
+    display       : flex;
+    flex-direction: row;
+    top           : unset;
+    bottom        : 0;
+    height        : 12%;
+    left          : 0;
+    right         : 0;
+    width         : 100%;
+}
+
+.menuItem:hover {
+    border-left: unset;
+    border-top : 10px solid;
+}
+
+#mapInfoHolder {
+    display       : block;
+    bottom        : 13%;
+    padding-bottom: 50px;
+}
+
+#termsInfo {
+    background: transparent;
+    padding   : 0;
+    height    : 0px;
+}
+
+#termsInfo:before {
+    content  : "CSS BY NamekujiLSDs#7777";
+    color    : yellow;
+    font-size: 18px;
+}
+
+.verticalSeparatorInline {
+    display: none;
+}
+
+.terms {
+    font-size: 0;
+}
+
+#mapInfo {
+    margin-bottom: 0px;
+    ;
+}
+
+#subLogoButtons {
+    bottom: 15%;
+}
+
+#uiBase.onMenu #chatHolder {
+    bottom    : 15%;
+    left      : 1%;
+    transition: .2s;
+}
+
+#uiBase.onMenu #voiceDisplay {
+    display: none;
+}
+
+#aHolder,
+#onetrust-consent-sdk {
+  display: none !important;
+}
+
+
+/* ClassPicker */
+
+#hiddenClasses {
+  display        : flex !important;
+  flex-direction : column;
+  position       : fixed;
+  right          : 0px;
+  top            : unset;
+  height         : calc(100% - 100px);
+  bottom         : 50%;
+  transform      : translate(0, 50%);
+  margin-right   : 10px;
+  width          : unset;
+  align-items    : center;
+  justify-content: center;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_0.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker1[onclick="selectClass(1)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_1.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker1[onclick="selectClass(1)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker2[onclick="selectClass(2)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_2.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker2[onclick="selectClass(2)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker3[onclick="selectClass(3)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_3.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker3[onclick="selectClass(3)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker4[onclick="selectClass(4)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_4.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker4[onclick="selectClass(4)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker5[onclick="selectClass(5)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_5.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker5[onclick="selectClass(5)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker6[onclick="selectClass(6)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_6.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker6[onclick="selectClass(6)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker7[onclick="selectClass(7)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_7.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker7[onclick="selectClass(7)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker8[onclick="selectClass(8)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_8.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker8[onclick="selectClass(8)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker9[onclick="selectClass(9)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_9.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker9[onclick="selectClass(9)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker10[onclick="selectClass(10)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_10.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker10[onclick="selectClass(10)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker11[onclick="selectClass(11)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_11.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker11[onclick="selectClass(11)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker12[onclick="selectClass(12)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_12.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker12[onclick="selectClass(12)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker13[onclick="selectClass(13)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_13.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker13[onclick="selectClass(13)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker14[onclick="selectClass(14)"] {
+  display        : block;
+  width          : 40px;
+  height         : 40px;
+  content        : url(https://assets.krunker.io/textures/classes/icon_14.png);
+  pointer-events : auto;
+  image-rendering: pixelated;
+  margin-right   : 10px;
+  padding        : 5px;
+  border-radius  : 10px;
+  border         : 3px solid white;
+}
+
+#menuClassPicker14[onclick="selectClass(14)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+
+/*Game UI*/
+
+#leaderDisplay:before {
+    content: "LeaderBoard";
+    color  : var(--color1);
+}
+
+#leaderContainer {
+    margin-top: 10px;
+    border-top: 4px dotted var(--color1)
+}
+
+div#streakCount {
+    background: transparent;
+    left      : 50%;
+    position  : fixed;
+    transform : translateX(-50%) scale(2);
+    bottom    : 15%;
+}
+
+#killsVal,
+#deathsVal,
+#streakVal,
+#myScoreVal,
+#kdVal {
+    color: white;
+}
+
+.weapItem {
+    display  : block;
+    position : fixed;
+    left     : 50%;
+    bottom   : 3%;
+    transform: translateX(-50%);
+}
+
+.weapIcon[style="opacity: 0.7; margin-right: 25px;"],
+.weapIcon[style="opacity: 0.7;"],
+.weapIcon[style="opacity:0.7;margin-right:25px"] {
+    transform : rotateX(90deg);
+    transition: .2s;
+    filter    : drop-shadow(4px 4px 0px var(--color2));
+}
+
+.weapIcon[style="opacity: 1;"],
+.weapIcon[style="opacity:1"],
+.weapIcon[style="opacity: 1; margin-right: 25px;"] {
+    transition: .2s;
+    filter    : drop-shadow(4px 4px 0px var(--color2));
+}
+
+#timerDisplay {
+    display   : block !important;
+    background: transparent;
+    left      : 50%;
+    bottom    : 20%;
+    position  : fixed;
+    transform : translateX(-50%);
+}
+
+#timerIcon {
+    display: none;
+}
+
+#timerVal {
+    color    : var(--time);
+    font-size: 40px;
+}
+
+.debugInfo {
+    background : rgba(0, 0, 0, .3);
+    padding    : 10px;
+    bottom     : 3%;
+    left       : 10px;
+    margin-top : -10px;
+    margin-left: -10px;
+}
+
+#timerVal,
+#ammoVal,
+#healthValue {
+    text-shadow: 2px 2px black, 2px -2px black, -2px 2px black, -2px -2px black;
+}
+
+#ammoDisplay {
+    position        : fixed;
+    bottom          : 47%;
+    left            : calc(50% - 40px);
+    transform       : unset;
+    width           : 80px;
+    padding         : 0;
+    height          : 8px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--relc1), var(--relc2))
+}
+
+#ammoVal {
+    position : fixed;
+    bottom   : 35%;
+    right    : 40%;
+    font-size: 60px;
+    color    : var(--ammoC)
+}
+
+#ammoMax,
+#ammoIcon {
+    display: none;
+}
+
+#healthValue {
+    color    : var(--hpC);
+    font-size: 60px;
+    position : fixed;
+    left     : 40%;
+    bottom   : 35%;
+}
+
+#maxHP,
+#challIcon {
+    display: none;
+}
+
+#healthValueHolder {
+    background: transparent;
+}
+
+#reloadMsg {
+    padding-left : unset;
+    padding-right: unset;
+    line-height  : unset;
+    bottom       : 44%;
+    background   : transparent;
+    border       : none;
+    color        : var(--relmsg);
+}
+
+.healthBarSeg {
+    width        : -webkit-fill-available;
+    margin-right : -1px;
+    border-radius: unset;
+    background   : transparent;
+}
+
+#healthBar {
+    border        : black solid 2px;
+    width         : 300px;
+    height        : 10px;
+    display       : flex;
+    flex-direction: row;
+    background    : transparent;
+    position      : fixed;
+    bottom        : 10px;
+    left          : 50%;
+    transform     : translateX(-50%);
+}
+
+.hpBSeg {
+    border-radius: unset;
+    box-shadow   : unset;
+}
+
+#hudClassIcon {
+    display: none;
+}
+
+#rankedSoonTm {
+    display: none;
+}
+
+.menuSocialB {
+    display: none !important;
+}
