@@ -2260,3 +2260,20 @@ td {
 #accManagerBtn:hover {
     transform: unset;
 }
+
+#termsInfo {
+    background: transparent;
+    padding   : 0;
+    height    : 0px;
+}
+
+#termsInfo:before {
+    content  : "CSS Made by JINXZ - Join Capy Clan";
+    color    : var(--accent);
+    font-size: 18px;
+}
+
+.terms {
+    font-size: 0;
+}
+
