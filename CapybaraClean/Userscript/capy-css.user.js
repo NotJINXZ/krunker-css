@@ -26,7 +26,7 @@
     If you reuse anypart of this code make sure to mention me.
 */
 
-let cssUrl = "https://raw.githubusercontent.com/NotJINXZ/krunker-css/main/CapybaraClean/main_custom.css"
+let cssUrl = "https://notjinxz.github.io/krunker-css/CapybaraClean/main_custom.css"
 new Array(...document.styleSheets).map(css => {
     if (css.href && css.href.includes("main_custom.css")) {
         if (cssUrl.startsWith("http") && cssUrl.endsWith(".css")) {
