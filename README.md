@@ -7,4 +7,13 @@
 - [whuuayu](https://github.com/whuuayu)
 
 
-### I did NOT make any of these CSS, I have only MODIFIED them.
+CSS that I made:
+- Capybara
+- CapybaraClean
+
+CSS that I did NOT make:
+- Comple
+- WhiteDiabolos
+- lemonfish
+- neonstorm
+- reizu
