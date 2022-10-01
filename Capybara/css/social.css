@@ -1,0 +1,2834 @@
+/*
+
+        Capybara Clan CSS
+            Credits: JINXZ, Nighy Riy
+
+            Updated: 09/29/2022
+
+        ^^    Do Not Remove THIS    ^^ 
+
+
+*/
+
+
+/* Configs ================================================================================== */
+
+:root {
+    
+    /* Card Blur */
+     --CardBlur: blur(40px) !important;
+
+    /* Profile Bottom Button Color */
+     --ProfileBottomBtn: rgba(255, 255, 255, 0.95) !important;
+
+    /* Button 1 Color */
+     --Btn1Color: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+
+    /* Button 1 Hover Color */
+     --Btn1_HoverColor: linear-gradient(180deg, rgba(140, 137, 177, 0.3) 0%, rgba(139, 138, 181, 0.3) 100%), rgba(98, 92, 115, 0.8) !important;
+
+    /* Button 1 Active Color */
+     --Btn1_ActiveColor: linear-gradient(180deg, rgba(121, 118, 153, 0.3) 0%, rgba(113, 112, 146, 0.3) 100%), rgba(57, 56, 73, 0.8) !important;
+    
+}
+
+/* Configs ================================================================================== */
+
+
+
+/* KeyFrames ================================================================================== */
+    
+/* Loading Icon Spin */ 
+@keyframes loadicospin {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+
+/* ------Popup Animation------ */
+
+/* Width Fix */
+@keyframes popup_width_animatFix {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-141%,-153%);
+    }
+    to {
+        transform: scale3d(1) translate(-50%,-50%);
+    }
+}
+
+/* Height Fix */
+@keyframes popup_height_animatFix {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-141%,-153%);
+    }
+    to {
+        transform: scale3d(1) translate(-50%,-50%);
+    }
+}
+
+/* Width 1 */
+@keyframes popup_width_animat_1 {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-100%,-100%);
+    }
+
+    to {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+}
+
+/* Width 2 */
+@keyframes popup_width_animat_2 {
+    from {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1) translate(-50%,-50%);
+    }
+}
+
+/* Height 1 */
+@keyframes popup_height_animat_1 {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-100%,-100%);
+    }
+
+    to {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+}
+
+/* Height 2 */
+@keyframes popup_height_animat_2 {
+    from {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1) translate(-50%,-50%);
+    }
+}
+
+/* Opacity */
+@keyframes popup_opacity_animat {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ------Popup Animation------ */
+
+/* Top Bar Startup Animation */
+@keyframes topbarstartupanimation {
+    from {
+        transform: translate(0%,-120%);
+    }
+    to {
+        transform: translate(0%,0%);
+    }
+}
+
+/* Trade Chat Scroller Startup Animation */
+@keyframes TradeChatScrollerStartupAnimation {
+    from {
+        transform: translate(-120%,0%);
+    }
+    to {
+        transform: translate(0%,0%);
+    }
+}
+
+/* Fade In */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
+/* Blur Switch Effect */
+@keyframes blurswitch {
+    from {
+        background-color: rgb(0 0 0 / 0.1);
+        backdrop-filter: blur(10px);
+        transition-duration: .2s;
+    }
+    to {
+        background-color: rgb(0 0 0 / 0.6);
+        backdrop-filter: blur(30px);
+        transition-duration: .2s;
+    }
+}
+
+/* Top Nav Animation */
+@keyframes navanimat {
+    from {
+        top: -80px;
+    }
+    to {
+        top: 3px;
+    }
+}
+
+/* Nav Buttons Aniamtion */
+@keyframes navbtnsanimat {
+    from {
+        transform: translateY(-80px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+/* Center Holder Animation */
+@keyframes centerholderanimat {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* Trade Popup Animat */
+@keyframes tradePopAnimat {
+    from {
+        transform: translate(-70%,-50%);
+    }
+
+    to {
+        transform: translate(-50%,-50%);
+    }
+}
+
+/* RainBow B Modify */
+@keyframes rainBow_ModifyB {
+    0%,100% {
+        border-color: rgb(237 20 61 / 0.3);
+        box-shadow: 0px 0px 30px 2px rgb(237 20 61 / 0.03);
+    }
+
+    20% {
+        border-color: rgb(255 165 0 / 0.3);
+        box-shadow: 0px 0px 30px 2px rgb(255 165 0 / 0.03);
+    }
+
+    40% {
+        border-color: rgb(255 255 0 / 0.3);
+        box-shadow: 0px 0px 30px 2px rgb(255 255 0 / 0.03);
+    }
+
+    60% {
+        border-color: rgb(0 255 0 / 0.3);
+        box-shadow: 0px 0px 30px 2px rgb(0 255 0 / 0.03);
+    }
+
+    80% {
+        border-color: rgb(0 0 205 / 0.3);
+        box-shadow: 0px 0px 30px 2px rgb(0 0 205 / 0.03);
+    }
+}
+
+/* Chat Box Animation */
+@keyframes chatBox_Animat {
+    from {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-360px);
+        opacity: 1;
+    }
+}
+
+/* Page 01 Animation */
+@keyframes page01animat {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* KeyFrames ================================================================================== */
+
+
+
+/* Main(Feed) ================================================================================== */
+
+/* Texts */
+* {
+    -webkit-text-stroke: 0.1px !important;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: rgb(255 255 255 / 45%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255 255 255 / 60%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Thumb Active */
+::-webkit-scrollbar-thumb:active {
+    background: rgb(255 255 255 / 70%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Background Image Holder */
+#backImgHoldr {
+    background: linear-gradient(180deg, rgba(41, 42, 46, 0.3) 0%, rgba(34, 34, 39, 0.3) 100%), rgba(0, 0, 0, 0.3) !important;
+    filter: blur(50px) !important;
+}
+
+/* LOADING */
+#loadMessage > div > div {
+    font-size: 0px !important;
+    margin-bottom: -50px;
+}
+
+/* Loading Icon */
+.lds-ring div {
+    border: 5px solid rgba(255, 255, 255, 0.7) !important;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) !important;
+    animation: loadicospin 1s linear infinite !important;
+    border-color: #fff #ffffff #ffffff #0000 !important;
+}
+
+/* Security Challenge Popup */
+#captcha-holder > div {
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    box-sizing: border-box !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 7px !important;
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    transition-duration: .2s !important;
+}
+
+/* Security Challenge */
+#captcha-holder > div > div:nth-child(1) {
+    width: 500px;
+    font-size: 28px !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Please complete the security challenge to contiune */
+#captcha-holder > div > div:nth-child(2) {
+    font-size: 19px !important;
+    color: rgba(241, 241, 241, 0.9) !important;
+}
+
+/* Security Challenge Popup Background */
+#captcha-holder {
+    animation: fadein .2s;
+    background-color: rgb(0 0 0 / 10%) !important;
+    backdrop-filter: blur(30px);
+}
+
+/* Error Load(e.g: Socket timed out, Took too long to complete captcha... etc) Hover Button */
+#errorReloadButton:hover {
+    background: #9794b3 !important;
+    transition-duration: .2s;
+    transform: scale(0.9);
+}
+
+/* Error Load(e.g: Socket timed out, Took too long to complete captcha... etc) Active Button */
+#errorReloadButton:active {
+    background: #747387 !important;
+    transition-duration: .2s;
+    transform: scale(0.8);
+}
+
+/* Error Load(e.g: Socket timed out, Took too long to complete captcha... etc) Button */
+#errorReloadButton {
+    width: 40px;
+    height: 40px;
+    content: url(https://i.imgur.com/abMeKhp.png) !important;
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    padding: 5px;
+    transition-duration: .2s;
+}
+
+/* Error Load Background */
+#errorDisplay {
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+/* Blue Link */
+.blueLink {
+    color: #fff !important;
+}
+
+/* Steam, App Store, Google Play, Krunker Editor DBs */
+#steamDB, #iosDB, #androidDB, #editrDB {
+    display: none !important;
+}
+
+/* Top Bar */
+#navBar {
+    backdrop-filter: var(--CardBlur) !important;
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7);
+    border: 1px solid rgba(225, 225, 225, 0.4);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    animation: topbarstartupanimation .5s;
+}
+
+/* =============Nav Buttons Animation============= */
+
+/* Nav Buttons */
+#navButtons {
+    animation: navanimat 0.6s;
+}
+
+
+/* feed */
+#feed {
+    animation: navbtnsanimat 0.62s;
+}
+
+/* market */
+#market {
+    animation: navbtnsanimat 0.65s;
+}
+
+/* leaders */
+#leaders {
+    animation: navbtnsanimat 0.7s;
+}
+
+/* games */
+#maps {
+    animation: navbtnsanimat 0.75s;
+}
+
+/* mods */
+#mods {
+    animation: navbtnsanimat 0.8s;
+}
+
+/* =============Nav Buttons Animation============= */
+
+/* Search User Input */
+#searchPInput {
+    background: rgba(245, 246, 255, 0.8) !important;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.05) !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 5px !important;
+}
+
+/* Search Button */
+#searchBtn {
+    margin-top: -10px !important;
+    margin-bottom: -9px !important;
+    height: 30px !important;
+    width: 30px !important;
+    content: url(https://i.imgur.com/ifR2sCz.png) !important;
+    background: var(--Btn1Color);
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(20px);
+    border-radius: 5px !important;
+    transition-duration: .2s;
+}
+
+/* Search Hover Button */
+#searchBtn:hover {
+    background: var(--Btn1_HoverColor);
+    backdrop-filter: blur(20px);
+    border-radius: 5px !important;
+}
+
+/* Search Active Button */
+#searchBtn:active {
+    background: var(--Btn1_ActiveColor);
+    backdrop-filter: blur(20px);
+    border-radius: 8px !important;
+}
+
+/* Disabled Follow (Followed) */
+.disFolB {
+    cursor: default;
+    border: 3px solid #565656;
+    color: #565656;
+}
+
+/* Terms Vertical Separator */
+#navTitle > div:nth-child(2) {
+    display: none;
+}
+
+/* Say something, KR Giveaway Amount */
+#postInput, #postKR {
+    color: rgb(0 0 0 / 90%) !important;
+    background-color: rgb(255 255 255 / 90%) !important;
+    border: none !important;
+    border-radius: 5px !important;
+    backdrop-filter: var(--CardBlur);
+}
+
+/* You will be charged a 10% KR Fee to make a Giveaway Post */
+#krInptHol > div {
+    color: rgb(255 255 255 / 80%) !important;
+}
+
+/* Post Hover Button */
+#postButton:hover {
+    opacity: 999;
+    background-color: rgb(136 138 170) !important;
+}
+
+/* Post Hover Button */
+#postButton:active {
+    opacity: 999;
+    background-color: rgb(79 81 108) !important;
+}
+
+/* Post Button */
+#postButton {
+    background-color: rgb(157 159 198) !important;
+    transition-duration: .15s;
+}
+
+/* Giva Button */
+#givaButton {
+    background-color: rgb(157 159 198) !important;
+    transition-duration: .15s;
+}
+
+/* Giva Hover Button */
+#givaButton:hover {
+    opacity: 999;
+    background-color: rgb(136 138 170) !important;
+}
+
+/* Giva Active Button */
+#givaButton:active {
+    opacity: 999;
+    background-color: rgb(79 81 108) !important;
+}
+
+/* Side Bar */
+#chatScroller {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7);
+    border: 1px solid rgba(225, 225, 225, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: var(--CardBlur);
+    animation: TradeChatScrollerStartupAnimation .65s;
+}
+
+/* Count Followers/Following */
+.postCFoll {
+    color: rgb(255 255 255 / 80%) !important;
+}
+
+/* Chat Box */
+#chatBox {
+    background-color: rgb(156 157 191 / 70%) !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    backdrop-filter: var(--CardBlur);
+    transform: translateX(-360px);
+    animation: chatBox_Animat 0.4s;
+    transition-duration: 0.4s;
+}
+
+/* Enter Message Input on Chat */
+#chatBoxInput {
+    color: #000 !important;
+    background-color: rgb(255 255 255 / 80%) !important;
+}
+
+/* Send Hover Button on Trade Chat */
+#chatBoxButton:hover {
+    opacity: 999;
+    background-color: rgb(136 138 170) !important;
+}
+
+/* Send Active Button on Trade Chat */
+#chatBoxButton:active {
+    opacity: 999;
+    background-color: rgb(79 81 108) !important;
+}
+
+/* Trade Chat System Message */
+.sysChatMsg {
+    color: rgb(255 255 255 / 80%) !important;
+}
+
+/* Send Button on Trade Chat */
+#chatBoxButton {
+    border-radius: 7px;
+    background-color: rgb(157 159 198) !important;
+    transition-duration: .15s;
+}
+
+/* Feed Tab Hover Button */
+.feedTab:hover {
+    background: rgb(0 0 0 / 0.3) !important;
+    border-bottom: none !important;
+    filter: brightness(0.9);
+}
+
+/* Feed Tab Active Button */
+.feedTab:active {
+    background: rgb(0 0 0 / 0.5) !important;
+    filter: brightness(0.8);
+    border-bottom: none !important;
+}
+
+/* Feed Tab Selected Button */
+.feedTabA {
+    background: rgb(58 59 70 / 70%) !important;
+    border-bottom: none !important;
+}
+
+/* Feed Tab Icon */
+#feedTab2 > span, #feedTab5 > span, #feedTab1 > span, #feedTab4 > span, #feedTab0 > span  {
+    color: white !important;
+}
+
+/* Krunker News, Krunk TV... etc */
+#leftABox, #rightABox, #rightFollBox, #leftYTBox {
+    background-color: rgb(156 157 191 / 70%) !important;
+    backdrop-filter: var(--CardBlur) !important;
+    height: 326px;
+    border-radius: 10px;
+}
+
+/* Krunker News Message Box */
+.sideBarItem {
+    border-bottom: 1px solid rgb(0 0 0 / 0%) !important;
+    background-color: rgb(0 0 0 / 0.25) !important;
+    border: 3px solid rgb(0 0 0 / 0%) !important;
+    color: rgb(255 255 255 / 95%) !important;
+    border-radius: 10px;
+}
+
+/* Krunker News Header */
+.sideBarHeader {
+    border-bottom: 1px solid rgb(0 0 0 / 0%) !important;
+}
+
+/* Feed Post */
+.socPost {
+    background-color: rgb(156 157 191 / 70%) !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    backdrop-filter: var(--CardBlur);
+    animation: page01animat .3s;
+    transition-duration: .3s;
+}
+
+/* Post Scroll */
+.scrollItem {
+    background-color: rgb(156 157 191 / 70%) !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    backdrop-filter: var(--CardBlur);
+}
+
+/* Search Results */
+#searchInfo > div {
+    color: rgb(255 255 255 / 80%);
+}
+
+/* Search Results Count */
+#searchInfo > div > div {
+    color: rgb(255 255 255 / 0.5);
+}
+
+/* Post Scroll Reply Button */
+.replyBtn {
+    height: 47px;
+    width: 136px;
+    margin-top: -1px;
+    border-radius: 5px;
+    line-height: 50px;
+    background: #b1b0c0 !important;
+    transition-duration: .15s;
+}
+
+/* Post Scroll Reply Hover Button */
+.replyBtn:hover {
+    background-color: #706f7b !important;
+}
+
+/* Post Scroll Reply Active Button */
+.replyBtn:active {
+    background-color: #44444b !important;
+}
+
+/* Post Scroll Reply */
+.replyInput {
+    background-color: rgb(255 255 255 / 40%);
+    border: none !important;
+}
+
+/* Post Scroll Content */
+#singlePostH > div > div > div.postContent > div {
+    color: white !important;
+}
+
+/* Post Scroll Comment */
+.comTxtHolder {
+    background-color: rgb(255 255 255 / 40%) !important;
+    color: rgb(255 255 255 / 90%) !important;
+}
+
+/* Post Bar */
+#postTopBar {
+    border-bottom: none !important;
+}
+
+/* Post Top Bar of "Post" Text */
+#postTopBar > b {
+    display: none;
+}
+
+/* Post Stat */
+#postTopStat > div {
+    width: 106% !important;
+}
+
+/* Feed Post Content */
+.postContent {
+    border-bottom: 1px solid rgb(0 0 0 / 0%) !important;
+    background-color: rgb(255 255 255 / 30%) !important;
+    border: 3px solid rgb(0 0 0 / 0%) !important;
+}
+
+/* Feed Post Content Text */
+#postHolder > div > div.postHead > div.postContent > div, #postHolder > div > div.postHead > div.postContent > div > div, #pTabContent_activity > div > div.postHead > div.postContent > div > div, #singlePostH > div > div > div.postContent > div > div {
+    color: #fff !important;
+}
+
+/* Img Text O */
+.imgTextO {
+    font-size: 35px !important;
+}
+
+/* "Count" Followers, "time(like 1s, 2m, 3d... etc)" ago */
+.postSubInfo, .postTime {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+/* Who to Follow */
+#rightFollBox {
+    width: 310px;
+}
+
+/* Follow Hover Button */
+.reqFollB:hover {
+    background-color: rgb(0 0 0 / 30%) !important;
+}
+
+/* Follow Button */
+.reqFollB {
+    border-radius: 5px;
+    border: 3px solid #0000 !important;
+    margin-left: 3px;
+    margin-top: 6px;
+    padding: 10px;
+    height: 22px;
+}
+
+/* Share Button */
+.shareBtnHol {
+    background-color: rgb(175 175 175 / 80%);
+}
+
+/* Feed Post Username Clan */
+#postHolder > div > div.postHead > div.postInfo > div > span > span, #pTabContent_activity > div > div.postHead > div.postInfo > div > span > span:nth-child(2), #singlePostH > div > div > div.postInfo > div > span > span:nth-child(2), #comHolderH > div > div > div > span.postLink > span {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+/* Developer, Streamer, Map Maker... etc */
+#whoToFolL > div > div.reqFollH > div {
+    color: rgb(255 255 255 / 70%) !important;
+}
+
+/* Follow Button on Giveaways Posts */
+.follBtnGiv {
+    margin-left: 0px;
+    margin-top: 7.6px;
+}
+
+/* Like Hover Button */
+.likeBtn:hover {
+    color: rgb(244 111 111 / 80%) !important;
+    transition: .15s;
+}
+
+/* Like Active Button */
+.likeBtn:active {
+    color: rgb(200 95 95 / 80%) !important;
+}
+
+/* Comment Hover Button */
+#postTopStat > div > span:nth-child(3):hover, #pTabContent_activity > div > div.likesHolder > span:nth-child(3):hover {
+    color: rgb(255 255 255 / 0.8) !important;
+}
+
+/* Comment Active Button */
+#postTopStat > div > span:nth-child(3):active, #pTabContent_activity > div > div.likesHolder > span:nth-child(3):active {
+    color: rgb(175 175 175 / 0.8) !important;
+}
+
+/* Share Hover Button */ 
+.shareBtnHol:hover {
+    opacity: 999;
+    background-color: rgb(136 136 136 / 80%);
+    transition: .15s;
+}
+
+/* Share Active Button */ 
+.shareBtnHol:active {
+    opacity: 999;
+    background-color: rgb(84 84 84 / 80%);
+}
+
+/* Back Hover Button on Post */ 
+#postTopBar > span.material-icons.likeBtn:hover {
+    color: rgb(255 255 255 / 0.8) !important;
+}
+
+/* Back Active Button on Post */ 
+#postTopBar > span.material-icons.likeBtn:active {
+    color: rgb(170 170 170 / 0.8) !important;
+}
+   
+/* Comment Button on Feed Post */ 
+#postHolder > div > div.likesHolder > span:nth-child(3):hover {
+    color: rgb(255 255 255 / 0.8) !important;
+}
+
+/* Comment Button on Feed Post */ 
+#postHolder > div > div.likesHolder > span:nth-child(3):active {
+    color: rgb(175 175 175 / 0.8) !important;
+}
+
+/* Giveaway Posts Follow Button */
+.follBtnGiv {
+    background-color: rgb(175 175 175 / 80%);
+}
+
+/* Giveaway Posts Follow Hover Button */
+.follBtnGiv:hover {
+    background-color: rgb(136 136 136 / 80%);
+}
+
+/* Giveaway Posts Follow Active Button */
+.follBtnGiv:active {
+    background-color: rgb(84 84 84 / 80%);
+}
+
+/* Follow and Like to Enter */
+.krGivFol {
+    margin-top: -7.5px;
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* Button */
+.button {
+    background: var(--Btn1Color) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px;
+    transition-duration: .2s;
+}
+
+/* Buttons Hover */
+div.button:hover {
+    background: var(--Btn1_HoverColor) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px;
+    transform: scale(.9);
+}
+
+/* Buttons Active */
+div.button:active {
+    background: var(--Btn1_ActiveColor) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px;
+    transform: scale(.8);
+}
+
+/* Krunker [.io] Box */
+#hubBox {
+    height: 60px !important;
+    width: 60px !important;
+    margin-right: -20px;
+    content: url(https://i.imgur.com/x1kHvsK.png) !important;
+    background-color: #0000 !important;
+}
+
+/* Krunker [.io] Box Hover */
+#hubBox:hover {
+    height: 60px !important;
+    width: 60px !important;
+    margin-right: -20px;
+    background-color: #0000 !important;
+    opacity: 0.7;
+    transition-duration: .1s;
+}
+
+/* Krunker [.io] Box Active */
+#hubBox:active {
+    height: 60px !important;
+    width: 60px !important;
+    margin-right: -20px;
+    background-color: #0000 !important;
+    opacity: 0.5;
+    transition-duration: .1s;
+}
+
+/* KRUNKER Logo */
+#navTitle > div:nth-child(5) {
+    display: none !important;
+}
+
+/* Settings Icon */
+#navTitle > div.material-icons.terms {
+    transform: translate(60px,0px) !important;
+}
+
+/* Terms Link */
+.terms {
+    transform: translate(60px,0px) !important;
+    color: #fff !important;
+}
+
+/* Krunker Hub Hover Button */
+#navTitle:hover {
+    color: rgb(175 175 175 / 0.80) !important;
+}
+
+/* Krunker Hub Active Button */
+#navTitle:active {
+    color: rgb(100 100 100 / 0.80) !important;
+}
+
+/* Login Popup */ 
+#loginPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+}
+
+/* Popup Background */
+#popupBack {
+    background-color: rgb(0 0 0 / 0.6);
+    backdrop-filter: blur(30px);
+    top: -150px !important;
+    width: 150% !important;
+    height: 150% !important;
+    transition-duration: .3s;
+    animation: blurswitch .3s !important;
+}
+
+/* Login Hover Button */
+.accountButton:hover {
+    color: white !important;
+    background-color: rgb(23 99 159);
+}
+
+/* Login Button */
+.accountButton {
+    color: rgba(255,255,255) !important;
+    background-color: rgb(33 150 243);
+    border-radius: 5px;
+}
+
+/* Popup Content */
+#popupContent {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Popup Content Loading, Success, Error... etc */
+#popupContent > div > div:nth-child(2) {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* Image Collection Popup */
+#imagePop, #imageNewPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Image Collection */
+.imageListHeader {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Add Image */
+.imageListAdd {
+    background: linear-gradient(180deg, rgb(0 0 0 / 0.1) 0%, rgb(0 0 0 / 0.1) 100%), rgb(0 0 0 / 0.2) !important;
+}
+
+/* ^Add in Popup */
+.mapFndB {
+    background: rgb(0 0 0 / 30%) !important;
+}
+
+/* Krunk TV Box */
+#leftBox {
+    background-color: rgb(156 157 191 / 70%) !important;
+    backdrop-filter: var(--CardBlur) !important;
+    border-radius: 10px;
+}
+
+/* New Feed Tabs */
+#feedTabs {
+    border-radius: 7px;
+    background-color: rgb(156 157 191 / 70%) !important;
+    backdrop-filter: var(--CardBlur);
+} 
+
+/* Feed Tab */
+.feedTab {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: transparent;
+} 
+
+/* No Current Posts */
+#postHolder > div {
+    font-size: 26px !important;
+}
+
+/* Settings Hover Icon Button */
+#navTitle > div.material-icons.terms:hover {
+    text-decoration: none;
+    transform: translate(60px,0px) !important;
+    font-size: 50px !important;
+    margin-top: 6px !important;
+    color: var(--Btn1_HoverColor) !important;
+    transition-duration: .2s;
+}
+
+/* Settings Active Icon Button */
+#navTitle > div.material-icons.terms:active {
+    text-decoration: none;
+    transform: translate(60px,0px) !important;
+    font-size: 45px !important;
+    margin-top: 9px !important;
+    color: var(--Btn1_ActiveColor) !important;
+    transition-duration: .2s;
+}
+
+/* Post Info */
+#postHolder > div:nth-child(18) > div.postHead > div.postInfo > div > span > i:nth-child(3) , #postHolder > div:nth-child(18) > div.postHead > div.postInfo > div > span > i:nth-child(4) {
+    color: #e6eaff !important;
+}
+
+/* LeaderBoard Kr Count Post Feed */
+#postGameRes > tbody > tr > td > span {
+    color: #fff !important;
+}
+
+/* Profile Kr */
+#profileKR {
+    color: #ffffffc7;
+}
+
+/* Giveaway Post Feed */
+.krGivPost {
+    text-shadow: none;
+}
+
+/* Giveaway KR Text Post Feed */
+#postHolder > div > div.postHead > div.postContent > div > div > span {
+    color: #fff !important;
+}
+
+/* Premium, Verified Icon Post Feed */
+
+/* Premium */ #postHolder > div > div.postHead > div.postInfo > div > span > i, 
+
+/* Verified */ #postHolder > div > div.postHead > div.postInfo > div > span > i {
+
+    color: rgba(242, 242, 255, 0.9) !important;
+
+}
+
+/* Center Holder */
+.centerHolder, #adBox {
+    animation: centerholderanimat 0.4s;
+    transition-duration: 0.4s;
+}
+
+/* [X] Icon */
+[style="font-size:80px;color:#e33b3b"] {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* Main(Feed) ================================================================================== */
+
+
+
+/* MarketPlace ================================================================================== */
+
+/* Black MarketPlace Icon */
+#m_blackm > img {
+    height: 50px;
+    content: url(https://i.imgur.com/4bPtkHr.png);
+}
+
+/* Search Button */
+div#marketSearchB, div#invSortB {
+    background: linear-gradient(180deg, rgb(178 179 214) 0%, rgb(171 179 223) 100%), rgb(152 149 171) !important;
+    border-radius: 10px;
+}
+
+/* Filter/Sort Popup */
+#filterPop, #sortPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+}
+
+/* Toggle Button */
+#filterTog, #sortTog {
+    background: #b6bac8 !important;
+}
+
+.sliderSml2:before {
+    display: none;
+}
+
+#sortPop > div:nth-child(3) > label > span {
+    transform: translateY(7px);
+}
+
+.sliderSml2 {
+    border-radius: 5px;
+    width: 30px;
+    left: -10px;
+    height: 20px;
+    background: #b6bac8;
+}
+
+input:checked+.sliderSml2 {
+    background-color: #e2ecff;
+    border-radius: 5px;
+    width: 30px;
+    left: -10px;
+    height: 20px;
+}
+
+#marketFiltTxt, #invSortTxt {
+    border-radius: 7px;
+    background: rgb(255 255 255 / 0.9);
+    border: none !important;
+}
+
+#sortFilt, #seaFilt, #seaSort {
+    border-radius: 7px;
+    background: rgb(255 255 255 / 0.9);
+    border: none !important;
+}
+
+.filterNav {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+.raritySel {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+#filterRBtn, #resetFBtn {
+    background: #b6bac8 !important;
+}
+
+/* MarketPlace ================================================================================== */
+
+
+
+/* Black MarketPlace ================================================================================== */
+
+/* Glitch Krunker Logo */
+.glitch:before, .glitch:after {
+    display: none !important;
+}
+
+/* Black MarketPlace ================================================================================== */
+
+
+
+/* Trade ================================================================================== */
+
+/* Incoming Offers, Outgoing Offers, Trade History */
+#o_in > div:nth-child(1), #o_in > div:nth-child(1) > span, #o_out > div:nth-child(1), #o_out > div:nth-child(1) > span, #o_his > div:nth-child(1), #o_his > div:nth-child(1) > span {
+    color: #f2f2f2d9 !important;
+}
+
+/* None */
+#o_in > div:nth-child(2), #o_out > div:nth-child(2), #o_his > div:nth-child(2) {
+    color: #f2f2f2d9 !important;
+}
+
+/* Decline All */
+.declineAll {
+    color: #fff;
+    background: rgb(160 162 203) !important;
+    border-radius: 8px;
+}
+
+/* Trade ================================================================================== */
+
+
+
+/* LeaderBoard ================================================================================== */
+
+/* Rank Icons */
+.rnkIcon {
+    display: none !important;
+}
+
+/* LeaderBoardNav */
+.leaderNav2 {
+    margin-bottom: 5px;
+    width: 750px;
+    margin-top: -10px;
+    background-color: rgb(0 0 0 / 0) !important;
+}
+
+/* Verified Icon in LeaderBoard */
+#leaderList > div > div > div.leaderText > i {
+    color: rgba(242, 242, 255, 0.9) !important;
+    filter: drop-shadow(0px 0px 10px rgba(50, 181, 255, 0.2)) !important;
+}
+
+/* LeaderBoard ================================================================================== */
+
+
+
+/* Games ================================================================================== */
+
+/* Home */
+#mapsHolder > div:nth-child(1) > div > div.bigMenTab.bigMenTabA > span, #mapsHolder > div:nth-child(1) > div > div:nth-child(1) > span {
+    color: #fff !important;
+}
+
+/* Play Now Btn */
+div#bigMFeatPBtn {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 25%) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px;
+    transition-duration: .2s;
+}
+
+/* Search Button */
+.searchListBtn {
+    background: rgb(255 255 255 / 0.3) !important;
+    border-radius: 7px;
+}
+
+/* Games ================================================================================== */
+
+
+
+/* Mods ================================================================================== */
+
+/* Home */
+#modsHolder > div:nth-child(1) > div > div.bigMenTab.bigMenTabA > span, #modsHolder > div:nth-child(1) > div > div:nth-child(1) > span {
+    color: #fff !important;
+}
+
+/* Publish */
+#modsHolder > div:nth-child(1) > div > div:nth-child(6) {
+    background: linear-gradient(180deg, rgb(165 167 216) 0%, rgb(171 179 223) 100%), rgb(152 149 171) !important;
+    border-radius: 10px;
+}
+
+/* Publish Mod Popup */
+#publishPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+}
+
+/* Publish Button */
+#pubGame {
+    background: rgb(0 0 0 / 0.3) !important;
+}
+
+/* Thumbnail Preview */
+.publishLeft {
+    border-radius: 10px;
+    border: 4px solid #0000;
+}
+
+/* Thumbnail Image */
+#modThumbPrev {
+    border-radius: 10px;
+}
+
+/* Select Thumbnail */
+.changeThumb {
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+/* Name */
+.mapInput {
+    background: rgb(255 255 255 / 90%);
+}
+
+/* Select */
+.fileSelect {
+    border: none;
+    border-radius: 5px;
+}
+
+/* Mods ================================================================================== */
+
+
+
+/* Item List ================================================================================== */
+    
+/* Category...etc Select, Search Item Input */
+#itemsListNav>select, #itemsListNav>input {
+    backdrop-filter: var(--CardBlur);
+    background-color: rgb(255 255 255 / 0.8) !important;
+}
+
+/* Item List ================================================================================== */
+
+
+
+/* Settings ================================================================================== */
+
+/* Settings Popup */
+#settingsPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Slider Background */
+.sliderM {
+    background: linear-gradient(180deg, rgba(209, 208, 227, 0.3) 0%, rgba(197, 196, 218, 0.3) 100%), rgba(223, 223, 240, 0.8);
+    box-shadow: 0px 0px 20px rgba(223, 223, 240, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    transition-duration: .2s;
+}
+
+/* Slider Background Hover */
+.sliderM:hover {
+    background: linear-gradient(180deg, rgba(175, 174, 197, 0.3) 0%, rgba(176, 175, 197, 0.3) 96.35%), rgba(172, 172, 192, 0.8);
+    box-shadow: 0px 0px 20px 2px rgba(172, 172, 192, 0.2);
+}
+
+/* Slider Background Active */
+.sliderM:active {
+    background: linear-gradient(180deg, rgba(163, 162, 187, 0.3) 0%, rgba(164, 163, 185, 0.3) 96.35%), rgba(139, 139, 159, 0.8);
+    box-shadow: 0px 0px 20px 3px rgba(139, 139, 159, 0.2);
+}
+
+/* Slider Box */
+.sliderM::-webkit-slider-thumb {
+    background-color: #0000 !important;
+    background: linear-gradient(180deg, rgba(235, 233, 255, 0.3) 0%, rgba(229, 227, 255, 0.3) 100%), rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition-duration: .2s;
+}
+
+/* Slider Box Hover */
+.sliderM::-webkit-slider-thumb:hover {
+    background: linear-gradient(180deg, rgba(235, 233, 255, 0.3) 0%, rgba(229, 227, 255, 0.3) 100%), rgba(211, 211, 222, 0.9) !important;
+    box-shadow: 0px 0px 15px rgba(211, 211, 222, 0.2) !important;
+}
+
+/* Slider Box Active */
+.sliderM::-webkit-slider-thumb:active {
+    background: linear-gradient(180deg, rgba(235, 233, 255, 0.3) 0%, rgba(229, 227, 255, 0.3) 100%), rgba(172, 172, 184, 0.9) !important;
+    box-shadow: 0px 0px 15px rgba(172, 172, 184, 0.2) !important;
+}
+
+/* Slider Value */
+.sliderVal {
+    background: #00000042 !important;
+}
+
+/* Checked Toggle */
+input:checked+.slider {
+    background: linear-gradient(180deg, rgba(69, 69, 94, 0.3) 0%, rgba(64, 65, 89, 0.3) 100%), rgba(33, 35, 43, 0.8) !important;
+    box-shadow: 0px 0px 25px rgba(33, 35, 43, 0.3) !important;
+    backdrop-filter: blur(5px);
+    transition-duration: .2s;
+}
+
+/* Checked Toggle Hover */
+input:checked+.slider:hover {
+    background: linear-gradient(180deg, rgba(52, 52, 68, 0.3) 0%, rgba(55, 55, 74, 0.3) 100%), rgba(18, 21, 37, 0.8) !important;
+    box-shadow: 0px 0px 20px 1px rgba(18, 21, 37, 0.35) !important;
+    filter: brightness(0.8);
+}
+
+/* Checked Toggle Active */
+input:checked+.slider:active {
+    background: linear-gradient(180deg, rgba(32, 27, 64, 0.3) 0%, rgba(31, 25, 56, 0.3) 100%), rgba(9, 8, 26, 0.8) !important;
+    box-shadow: 0px 0px 20px 1px rgba(9, 8, 26, 0.5) !important;
+    filter: brightness(0.7);
+}
+
+/* Settings Toggle */
+.slider {
+    background: linear-gradient(180deg, rgba(189, 188, 206, 0.3) 0%, rgba(178, 177, 198, 0.3) 100%), rgba(186, 188, 209, 0.8) !important;
+    box-shadow: 0px 0px 25px rgb(135 125 177 / 30%) !important;
+    backdrop-filter: blur(5px);
+    transition-duration: .2s;
+    transform: scale(0.95);
+}
+
+/* Settings Toggle Hover */
+.slider:hover {
+    background: linear-gradient(180deg, rgba(162, 160, 194, 0.3) 0%, rgba(162, 159, 192, 0.3) 100%), rgba(146, 149, 182, 0.8) !important;
+    box-shadow: 0px 0px 30px rgb(135 125 177 / 65%) !important;
+    transform: scale(1);
+    filter: brightness(0.9);
+}
+
+/* Settings Toggle Active */
+.slider:active {
+    background: linear-gradient(180deg, rgba(106, 104, 137, 0.3) 0%, rgba(107, 105, 138, 0.3) 100%), rgba(133, 136, 163, 0.8) !important;
+    box-shadow: 0px 0px 30px rgb(97 103 152 / 80%) !important;
+    transform: scale(0.95);
+    filter: brightness(0.8);
+}
+
+/* Settings Toggle White Box */
+.slider:before {
+    background: linear-gradient(180deg, rgba(235, 233, 255, 0.3) 0%, rgba(229, 227, 255, 0.3) 100%), rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(5px);
+}
+
+/* Collection Btn */
+.openCollection {
+    background: linear-gradient(180deg, rgb(0 0 0 / 0.1) 0%, rgb(0 0 0 / 0.1) 100%), rgb(0 0 0 / 0.2) !important;
+}
+
+/* Manage Ad Preferences */
+#settHolder > div:nth-child(10) {
+    background: linear-gradient(180deg, #54596e 0%, #54596e 100%), #54596e !important;
+    transition: .15s;
+}
+
+/* Manage Ad Preferences Hover */
+#settHolder > div:nth-child(10):hover {
+    cursor: pointer;
+    filter: brightness(0.85);
+}
+
+/* Manage Ad Preferences Active */
+#settHolder > div:nth-child(10):active {
+    filter: brightness(0.7);
+}
+
+/* Settings ================================================================================== */
+
+
+
+/* Profile ================================================================================== */
+
+/* Profile Picture */
+.profilePic {
+    background: rgba(29, 29, 29, 0.6) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(20px);
+}
+
+/* On Status */
+.onStatus {
+    border: 5px solid rgb(190 190 190 / 90%) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(20px);
+}
+
+/* Online Status Green */
+[style="background:#27ab32"] {
+    background: rgba(51, 255, 84, 0.6) !important;
+    box-shadow: 0px 0px 20px rgba(101, 255, 126, 0.15);
+    backdrop-filter: blur(20px);
+}
+
+/* HACKER Card */
+#hackText {
+    background: linear-gradient(180deg, rgba(255, 185, 185, 0.3) 0%, rgba(255, 171, 165, 0.3) 100%), rgba(171, 149, 154, 0.5) !important;
+    box-shadow: 0px 0px 30px rgba(255, 95, 131, 0.5) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 10px !important;
+    z-index: 0 !important;
+    font-size: 0 !important;
+}
+
+/* ^For Icon */
+#hackText:after {
+    position: absolute;
+    left: 385.6px;
+    top: -8.5px;
+    content: url('https://notjinxz.github.io/krunker-css/Capybara/icons/hackericon.png');
+    transform: scale(.85);
+}
+
+/* Profile Holder */
+#profileHolder {
+    animation: centerholderanimat 0.4s;
+    transition-duration: 0.4s;
+}
+
+/* Username, Since, Followers/Following Scroll Page */
+.scrollItemNew {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 10px !important;
+    transition-duration: .2s;
+    animation: page01animat .3s;
+}
+
+/* Since */
+.leftMidHolder {
+    color: rgba(220, 220, 233, 0.9) !important;
+}
+
+/* Since Date */
+#rightProfile > div.leftMidHolder > span {
+    color: rgba(250, 250, 255, 0.95) !important;
+}
+
+/* Followers/Following Text */
+.follCount {
+    color: rgba(220, 220, 233, 0.9) !important;
+}
+
+/* Followers/Following Counts */
+.follL {
+    color: rgba(250, 250, 255, 0.95) !important;
+}
+
+/* Partner, Premium, Verified Icon */ 
+#rightProfile > div.leftTopHolder > i {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Partner Icon */
+[style="margin-right:-2px;font-size:32px;color:#993299;vertical-align:middle;margin-top:-6px;"] {
+    filter: drop-shadow(0px 0px 10px rgba(123, 18, 255, 0.2)) !important;
+}
+
+/* Premium Icon */
+[style="margin-right:-2px;font-size:32px;color:#FBC02D;vertical-align:middle;margin-top:-6px;"] {
+    filter: drop-shadow(0px 0px 10px rgba(255, 179, 89, 0.2)) !important;
+}
+
+/* Verified Icon */
+[style="margin-right:1px;font-size:32px;color:#40C4FF;vertical-align:middle;margin-top:-6px;"] {
+    filter: drop-shadow(0px 0px 10px rgba(50, 181, 255, 0.2)) !important;
+}
+
+/* Premium Display Name */
+[style="color: rgb(251, 192, 45);"] {
+    color: rgba(255, 237, 216, 0.95) !important;
+    text-shadow: 0px 0px 10px rgba(255, 179, 89, 0.2) !important;
+    transition-duration: .15s;
+}
+
+/* Profile Premium Display Name Hover Switch */ 
+#nameSwitch:hover {
+    color: rgb(212 212 212 / 90%) !important;
+    transition-duration: .15s;
+}
+
+/* Profile Premium Display Name Active Switch */ 
+#nameSwitch:active {
+    color: rgb(175 175 175 / 90%) !important;
+}
+
+/* Profile Premium Display Name Switch */ 
+#nameSwitch {
+    color: rgb(255 255 255 / 90%);
+}
+
+/* Profile Tabs */
+.profileTabs {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 10px !important;
+    width: 99.8% !important;
+}
+
+/* Profile Tab */
+.profileTab {
+    color: rgba(255, 255, 255, 0.95) !important;
+    background-color: transparent !important;
+    transition-duration: .15s;
+}
+
+/* Profile TabA... */
+.pTabA {
+    box-shadow: none !important;
+    background: rgba(50, 50, 50, 0.4) !important;
+    border-radius: 10px !important;
+}
+
+/* Profile Tab Hover */ 
+.profileTab:hover {
+    box-shadow: none !important;
+    background: rgba(50, 50, 50, 0.2) !important;
+    border-radius: 10px !important;
+}
+
+/* Profile Tab Active */ 
+.profileTab:active {
+    box-shadow: none !important;
+    background: rgba(50, 50, 50, 0.6) !important;
+    border-radius: 10px !important;
+}
+
+/* Overall Status Box */
+.pSt {
+    width: 123px !important;
+    background: rgba(88, 86, 102, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px !important;
+    text-shadow: none !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Overall Stats Count */
+.pSt strong {
+    color: rgba(255, 255, 255, 0.82) !important;
+}
+
+/* Scroll Item Head(Overall Stats, Class Stats, Sales) */
+.scrollItemHead, #pTabContent_about > div > div.material-icons.toggleView {
+    color: white !important;
+} 
+
+/* No Market Listings! */
+#pTabContent_listings > div > div {
+    color: rgb(255 255 255 / 90%) !important;
+}
+
+/* No published Skins/Games/Mods/Assets from this user */ 
+#pTabContent_creations > div > div > div {
+    color: rgb(255 255 255 /90%) !important;
+}
+
+/* Dont view on stream! Popup */ 
+#confSubmitPop > div:nth-child(1) {
+    color: rgb(255 227 207) !important;
+    font-size: 17.9px !important;
+}
+
+/* Following/Followers List Popup */
+#followPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Following/Followers List of Premium/Verified Icon */
+#followPop > div > div.leaderText > div > i:nth-child(1), #followPop > div > div.leaderText > div > i:nth-child(2) {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Bottom Button Hover */
+.bottomBtn:hover {
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+    filter: contrast(1) !important;
+    -webkit-filter: contrast(1) !important;
+}
+
+/* Bottom Button Active */
+.bottomBtn:active {
+    -webkit-transform: scale(.89);
+    transform: scale(.89);
+    filter: contrast(1) !important;
+    -webkit-filter: contrast(1) !important;
+}
+
+/* Follow, Send Gift...etc Button */ 
+
+/* Follow */
+.follow, 
+
+/* Send Gift */
+#giftBtn, 
+
+/* Verify */
+#verifyBtn, 
+
+/* Trade */
+#tradeBtn, 
+
+/* Give Badge */
+#badgeBtn, 
+
+/* UnFollow */
+.unfollow 
+
+{
+    color: var(--ProfileBottomBtn) !important;
+    background: linear-gradient(180deg, rgba(184, 187, 241, 0.3) 0%, rgba(193, 203, 253, 0.3) 100%), rgba(201, 197, 224, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 0px 30px rgba(142, 147, 255, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px !important;
+}
+
+/* ^Hover */
+.follow:hover, 
+
+#giftBtn:hover, 
+
+#verifyBtn:hover, 
+
+#tradeBtn:hover, 
+
+#badgeBtn:hover, 
+
+.unfollow:hover 
+
+{
+    background: linear-gradient(180deg, rgba(157, 159, 207, 0.3) 0%, rgba(142, 150, 190, 0.3) 100%), rgba(153, 150, 172, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 0px 30px rgba(153, 150, 172, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px !important;
+}
+
+/* ^^Active */
+.follow:active,
+
+#giftBtn:active, 
+
+#verifyBtn:active,
+
+#tradeBtn:active, 
+
+#badgeBtn:active, 
+
+.unfollow:active 
+
+{
+    background: linear-gradient(180deg, rgba(64, 65, 85, 0.3) 0%, rgba(69, 72, 90, 0.3) 100%), rgba(55, 51, 75, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 0px 30px rgba(55, 51, 75, 0.25) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 7px !important;
+}
+
+/* Followers/Following BHold */ 
+.friendBHold {
+    border-top: none;
+}
+
+/* Custom Badge */
+.customBadge {
+    display: none !important;
+}
+
+/* Follow Pfp */
+.folPfp {
+    border: none;
+}
+
+/* Xp Bar */
+.xpBar {
+    background: rgba(88, 86, 102, 0.9) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 7px !important;
+}
+
+/* Xp Bar Text */
+.xpBarV {
+    position: absolute;
+    top: 6.1px;
+    text-align: left;
+    left: 12px;
+    font-size: 12px;
+    text-shadow: none !important;
+    color: rgba(255, 255, 255, 0.98) !important;
+}
+
+/* Xp Bar B */
+.xpBarB {
+    background: #838CBC !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 7px !important;
+}
+
+/* Report, Share, Flag Button */
+span#reprtBtn, span#shareBtn, span#flagBtn {
+    color: rgb(255 255 255 / 0.95) !important;
+}
+
+/* Report, Share, Twitch, Flag Hover Button */
+span#reprtBtn:hover, span#shareBtn:hover, #twitchBtn:hover, span#flagBtn:hover {
+    filter: brightness(0.85);
+}
+
+/* Report, Share, Twitch, Flag Active Button */
+span#reprtBtn:active, span#shareBtn:active, #twitchBtn:active, span#flagBtn:active {
+    filter: brightness(0.7);
+}
+
+/* Twitch Button */
+#twitchBtn {
+    content: url(https://i.imgur.com/fGSnzPG.png);
+}
+
+/* Profile Badge Bound */
+.badgeBound {
+    backdrop-filter: blur(7px);
+}
+
+/* Feed Verified Icon In Profile */
+#pTabContent_activity > div > div.postHead > div.postInfo > div > span > i {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Gift Pop */
+#giftPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Fee: Count */
+#giftAmntFee {
+    color: rgb(255 255 255 / 90%);
+}
+
+/* Report Pop */
+#reportPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Report Button */
+#reportBtn {
+    background: rgb(0 0 0 / 20%) !important;
+    color: rgb(255 255 255 / 95%) !important;
+    border-radius: 7px;
+}
+
+/* Badge Card */
+.badgeCard {
+    text-shadow: none;
+}
+
+/* Badge Desc */
+.badgeDesc {
+    color: #d2d2d2;
+}
+
+/* Data Range */
+#pTabContent_about > div:nth-child(5) > div:nth-child(3) > span {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Data Range Select */
+.rangeSelect {
+    background: rgba(245, 246, 255, 0.8);
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(20px);
+    border-radius: 7px !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+    transition-duration: .15s;
+}
+
+/* ^Hover */
+.rangeSelect:hover {
+    background: rgba(200, 200, 210, 0.8);
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 7px;
+}
+
+/* ^^Active */
+.rangeSelect:active {
+    background: rgba(139, 140, 150, 0.8);
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 7px;
+}
+
+/* Market Sales */
+.graphHeader {
+    background: rgba(88, 86, 102, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px !important;
+}
+
+/* ^Chart */
+.chartjs-render-monitor {
+    background: rgb(0 0 0 / 0.65);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    filter: grayscale(1) brightness(3.2);
+}
+
+/* Class Card */
+.classCard {
+    background: rgba(88, 86, 102, 0.9) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 10px !important;
+    text-shadow: none !important;
+}
+
+/* Class Image */
+.classImg {
+    background: rgba(29, 29, 29, 0.6) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px !important;
+}
+
+/* Class Level */
+.classLvl {
+    top: 55px !important;
+    left: 50px !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Class Name (ex. Hunter) */
+.className {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Class Weapon (ex. Sniper Rifle) */
+.classWeap {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Class XP Bar */
+.classXPBar {
+    background: rgba(47, 46, 53, 0.45) !important;
+    backdrop-filter: blur(40px);
+    border-radius: 5px !important;
+}
+
+/* Class XP Bar C */
+.clsXPBarC {
+    background: rgba(131, 140, 188, 1) !important;
+    backdrop-filter: blur(20px);
+    border-radius: 5px !important;
+}
+
+/* Class XP Bar Text */
+.clsXPBarV {
+    position: absolute;
+    top: 1.6px;
+    text-align: left;
+    left: 1px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Sale Card Actions */
+.cardActions {
+    background: rgb(0 0 0 / 50%);
+    backdrop-filter: blur(20px);
+}
+
+/* Tabs */
+.bigMenTabs {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border-radius: 10px !important;
+}
+
+/* Tab Selected */
+.bigMenTabA {
+    border-bottom: none;
+    backdrop-filter: brightness(0.75);
+    border-radius: 10px !important;
+    transition-duration: .2s;
+}
+
+/* Tab Hover */
+.bigMenTab:hover {
+    border-bottom: none;
+    backdrop-filter: brightness(0.59);
+    border-radius: 10px !important;
+    transition-duration: .2s;
+}
+
+/* Tab Active */
+.bigMenTab:active {
+    border-bottom: none;
+    backdrop-filter: brightness(0.4);
+    border-radius: 10px !important;
+}
+
+/* Profile ================================================================================== */
+
+
+
+/* Clan Page ================================================================================== */
+
+/* Members, Market Cap, Purchase Power and Counts */
+#clanInfo > div > div.clanStatH > div, #clanInfo > div > div.clanStatH > div > span {
+    color: rgb(255 255 255 / 90%) !important;
+}
+
+/* Premium Icon */
+#clanRoster > div > div > i:nth-child(1) {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Verified Icon */
+#clanRoster > div > div > i:nth-child(2) {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Clan Button */
+.clanBut {
+    background: rgb(255 255 255 / 0.3) !important;
+}
+
+/* Clan Page ================================================================================== */
+
+
+
+/* Map Page ================================================================================== */
+   
+/* LeaderBoard Tab of Players */
+#mapLeaders > div, #mapLeaders > div > span {
+    color: #fff !important;
+}
+
+/* Servers Tab of Servers */
+.menuSelector, .serverPCount, .serverRegion {
+    color: #f3f3f3f0 !important;
+}
+
+/* ^Star Icon */
+#activeGames > div > div > span {
+    color: #fbf0e1f0 !important;
+}
+
+/* Map List Item */
+.mapListItem {
+    background: rgb(0 0 0 / 0.3) !important;
+    border-radius: 10px;
+}
+
+/* Map Thumb Holder */
+.mapListThumbHolder {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Map Info */
+.mapListCrdI {
+    background: rgb(0 0 0 / 0.3) !important;
+    backdrop-filter: blur(20px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.mapAgeD {
+    background: rgb(0 0 0 / 50%) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Map Page ================================================================================== */
+
+
+
+/* Item Sales Page ================================================================================== */
+
+#iTabContent_owners > div > div:nth-child(2), 
+#iTabContent_owners > div  {
+    color: rgb(255 255 255 / 0.6) !important;
+}
+
+/* Item Sales Page ================================================================================== */
+
+
+
+/* Others ================================================================================== */
+
+/* units... */
+[style="color:#787878"] {
+    color: rgb(255 255 255 / 0.95) !important;
+}
+
+/* Premium */
+#iTabContent_owners > div > div.leaderText > i:nth-child(1), 
+
+/* in reply post */ #comHolderH > div > div > div > span.postLink > i
+
+{
+    color: rgba(242, 242, 255, 0.9) !important;
+    filter: drop-shadow(0px 0px 10px rgba(255, 179, 89, 0.2)) !important;
+}
+
+/* Verified */
+#iTabContent_owners > div > div.leaderText > i:nth-child(2)
+
+{
+    color: rgba(242, 242, 255, 0.9) !important;
+    filter: drop-shadow(0px 0px 10px rgba(50, 181, 255, 0.2)) !important;
+}
+
+/* Premium/Verified Icon in post */
+#singlePostH > div:nth-child(3) > div > div.postInfo > div > span > i {
+    color: rgba(242, 242, 255, 0.9) !important;
+}
+
+/* Find Button */
+.buyBtn {
+    background: rgb(152 154 187);
+}
+
+/* Green(Up) */
+[style="background-color: rgb(126, 214, 51);"], [style="background-color:#41c300"] {
+    background-color: rgb(186 255 216 / 50%) !important;
+}
+
+/* Red(Down) */
+[style="background-color: rgb(244, 67, 54);"], [style="background-color:rgb(244,67,54)"] {
+    background-color: rgb(255 197 217 / 50%) !important;
+}
+
+/* Market Card */
+.marketCard {
+    border: 5px solid #0000 !important;
+    border-radius: 10px;
+}
+
+/* Search User */
+#searchDInput {
+    background-color: rgb(255 255 255 / 90%);
+}
+
+/* Open in Editor */
+.editLink {
+    color: #c3d3ff !important;
+}
+
+/* Update Leadboard */
+.mapLeaderB {
+    background: rgb(167 175 203);
+}
+
+/* Leaderboard Displau... */
+[style="margin-top:25px;font-size:24px;color:#b2b2b2"] {
+    color: rgb(255 255 255 / 90%) !important;
+}
+
+/* Enter KR Amount */
+#mapFundsInp {
+    border-radius: 7px;
+}
+
+/* Play, Share */
+div.buttonS, div.buttonH {
+    border: 3px solid #0000 !important;
+}
+
+/* Edit Button */
+.creationAction.edit, .creationAction.del {
+    color: rgb(255 255 255 / 0.9) !important;
+    filter: none;
+    background: rgb(0 0 0 / 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: .15s;
+}
+
+/* Quick Sell Popup */
+#confQSPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(40px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+}
+
+/* Are you sure you want to Quick Sell [Item]? */
+#confQSPop > div:nth-child(1)  {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* Item Color, KR Count */
+#confQSPop > div:nth-child(1) > span, #confQSPop > div:nth-child(2) > div > span {
+    color: rgb(255 255 255 / 0.6) !important;
+}
+
+/* Get KR, NO, List Item */
+#quickSellBtn, #declineBtn, .pItemButton {
+    background: rgb(0 0 0 / 30%) !important;
+}
+
+/* Amount Select */
+#quickSellSelect {
+    border-radius: 7px;
+}
+
+/* Item Name */
+.pItemName {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* List Price in KR */
+#sellPriceIn {
+    background: rgb(255 255 255 / 90%);
+    border: none;
+}
+
+/* Item View Popup */
+#itemViewPop {
+    border: none !important;
+    background: rgb(0 0 0 / 0.3);
+    border-radius: 10px;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+}
+
+/* ^Name */
+.itemViewName {
+    text-shadow: none !important;
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* ^Sea */
+.itemViewSea {
+    background: rgb(0 0 0 / 0.5) !important;
+}
+
+/* 3D */
+.popupImgInfo {
+    background: rgb(0 0 0 / 30%);
+    backdrop-filter: blur(20px);
+}
+
+/* White */
+[style="color:#fff"] {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* White 40% Opacity */
+[style="color:rgba(255,255,255,0.4)"] {
+    color: rgb(255 255 255 / 0.5) !important;
+}
+
+/* Red Color: HackerTagged, Error (maybe?) */
+[style="color:#E85656"] {
+    color: rgb(255 255 255 / 0.3) !important;
+}
+
+/* a Link */
+a {
+    color: rgb(255 255 255 / 0.9) !important;
+}
+
+/* L Name */
+.lName {
+    color: rgb(255 255 255 / 0.8);
+}
+
+/* Referral Header */
+#referralHeader {
+    background-color: rgba(0 0 0 / 50%);
+    border-radius: 10px !important;
+}
+
+/* Success/Fail Icon */
+#popupContent > div > div:nth-child(1) > i {
+    filter: brightness(100) opacity(0.9);
+}
+
+/* Friends Icon */
+.chatBlobIcn {
+    background-color: rgba(0 0 0 / 20%);
+    border: 4px solid #0000;
+}
+
+/* Friends Chat */
+.chatBlobImg {
+    background-color: rgba(0 0 0 / 20%);
+    border: 4px solid #0000;
+}
+
+/* Tool Tip Left Animation */
+@keyframes toolTip2_Animat {
+    from {
+        transform: translate(-10%, 0%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
+/* Tool Tip Left (Ex. Friends: view friends list...etc) */
+.tooltip2 {
+    background: rgba(29, 29, 29, 0.6) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    color: rgb(194 197 255) !important;
+    text-shadow: none !important;
+    animation: toolTip2_Animat 400ms 0ms cubic-bezier(0.42,0,0,1) forwards, fadein 400ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+    transition-duration: 400ms;
+}
+
+/* Tool Tip Left Title */
+#uiBase > div.tooltip2 > div {
+    color: rgba(255 255 255 / 0.95) !important;
+}
+
+/* Tool Tip Left Desc */
+#uiBase > div.tooltip2 > div > div {
+    color: rgb(255 255 255 / 0.8) !important;
+    font-size: 15px !important;
+}
+
+/* Tool Tip Animation */
+@keyframes toolTip_Animat {
+    from {
+        transform: translate(0%, 20%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
+/* Tool Tip (Ex. Item: Est XXX KR...etc) */
+.tooltip {
+    background: rgba(29, 29, 29, 0.6) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    color: rgb(194 197 255) !important;
+    text-shadow: none !important;
+    animation: toolTip_Animat 300ms 0ms cubic-bezier(0.42,0,0,1) forwards, fadein 300ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+    transition-duration: 300ms;
+}
+
+/* ^Arrow */
+.tooltip:before {
+    display: none !important;
+}
+
+/* Items Desc */
+[style="font-style:italic;font-size:10px;"] {
+    color: rgb(255 255 255 / 0.95);
+    font-style: normal !important;
+}
+
+/* Tool Tip Title */
+body > div.tooltip > div:nth-child(1) > span {
+    color: rgba(213, 209, 255, 0.95) !important;
+    font-size: 11px !important;
+}
+
+/* Tool Tip Desc */
+body > div.tooltip > div:nth-child(2) {
+    color: rgb(255 255 255 / 0.8) !important;
+    font-style: normal !important;
+    font-size: 10px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 7px !important;
+}
+
+/* Est "[XXX] KR/Unknown" */
+body > div.tooltip > div:nth-child(2) > span,
+body > div.tooltip > div:nth-child(3) > span 
+{
+    color: rgba(213, 209, 255, 0.95) !important;
+}
+
+/* Must be level 20 */
+#marketList {
+    color: rgb(255 255 255 / 0.95);
+}
+
+/* Offline Status */
+[style="background:#7f7f7f"] {
+    background: rgb(218 218 218 / 90%) !important;
+}
+
+/* Status */
+.statusBlob {
+    border: 5px solid rgb(0 0 0 / 50%);
+}
+
+/* Chat Input Holder */
+div#chatBoxInputH {
+    border-top: 3px solid rgb(0 0 0 / 0%) !important;
+}
+
+/* Map List Item in Profile */
+.mapListItem2 {
+    background: rgb(0 0 0 / 30%) !important;
+    border: 3px solid rgba(0 0 0 / 0%) !important;
+    border-radius: 10px !important;
+}
+
+/* Prfoile Info */
+#profileInfo {
+    top: 7px;
+    left: 0px;
+}
+
+/* Profile Image */
+#profileImg {
+    width: 0px;
+    height: 0px;
+}
+
+/* Profile Search */
+#profileSearch {
+    height: 77px;
+}
+
+/* Star Icon */
+.creationAction {
+    color: rgb(255 255 255 / 0.8) !important;
+    filter: none !important;
+}
+
+/* Person Icon */
+[style="margin-right: 8px;color:rgba(255, 255, 255, 0.5);vertical-align: middle;margin-top:-5px;font-size:30px;"],
+
+/* Map Votes */
+div.mapsVotes
+{
+    color: rgb(255 255 255 / 0.85) !important;
+    filter: none !important;
+    text-shadow: none !important;
+}
+
+/* Verified Icon in Search User */
+#searchList > div > div > i {
+    color: rgb(255 255 255 / 0.95) !important; 
+}
+
+/* By [Username] */
+#mapProfile > div > div:nth-child(3) > div:nth-child(2) > a {
+    opacity: 0.7 !important;
+}
+
+/* Badge Image */
+.badgeImg {
+    filter: invert(0.1) brightness(4) grayscale(1);
+}
+
+/* Clan with Color */
+#clanInfo > div > div.clanInfH > span:nth-child(1) {
+    filter: invert(0.1) brightness(2) grayscale(0.5);
+}
+
+/* Like Icon */
+[style="font-size:33px;vertical-align:middle;margin-top:-5px;color:#eb4034"] {
+    filter: invert(0.1) brightness(2);
+}
+
+/* Profile Gift Button */
+.pGiftButton {
+    border-radius: 10px;
+    background: rgb(0 0 0 / 20%);
+    transition: .15s;
+}
+
+/* Profile Gift Hover Button */
+.pGiftButton:hover {
+    background: rgb(0 0 0 / 30%);
+}
+
+/* Profile Gift Active Button */
+.pGiftButton:active {
+    background: rgb(0 0 0 / 50%);
+}
+
+/* Gift Input */
+#giftIn, #giftMsg {
+    border: none !important;
+    background: rgb(255 255 255 / 95%) !important;
+}
+
+/* Creator Skin Item */
+.creationSkinItem {
+    border: 3px solid rgb(0 0 0 / 0%) !important;
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+/* Creator Skin Image */
+.creationSkinImg {
+    background-color: rgb(0 0 0 / 0.3);
+    border-radius: 10px;
+}
+
+/* Creator Skin Name */
+.creationSkinName {
+    color: rgb(255 255 255 / 95%);
+    filter: none !important;
+}
+
+/* Trade Popup */
+#tradePop {
+    color: rgb(255 255 255 / 0.95) !important;
+    background-color: #0000 !important;
+    box-shadow: none !important;
+    transform: translate(-50%,-50%) scale(1);
+    animation: fadein 500ms 0ms cubic-bezier(0.42,0,0,1) forwards, tradePopAnimat 500ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+    transition-duration: 500ms;
+}
+
+/* Your Items */
+.tListN.inv {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+/* Trade List Trade */
+.tListN.trade {
+    background-color: rgb(0 0 0 / 0%);
+}
+
+/* Trade List N */
+.tListN {
+    font-size: 18px;
+    color: rgb(255 255 255 / 95%);
+    text-align: left;
+    border-radius: 10px;
+}
+
+/* Submit Offer */
+.tSubOffer {
+    color: rgb(255 255 255 / 0.95);
+    background-color: rgb(0 0 0 / 0.3);
+    border-radius: 10px;
+}
+
+/* ^Hover */
+.tSubOffer:hover {
+    font-size: 16px;
+    background-color: rgb(180 180 180 / 25%);
+}
+
+/* Trade Swap(?) */
+#tradePop > div.material-icons.tradeSwap {
+    filter: grayscale(1) opacity(0.95);
+    transition: .15s;
+}
+
+/* Trade Item Animation */
+@keyframes tItemAnimat {
+    from {
+        transform: translateY(-45px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+/* Trade Item */
+.tItemHolder {
+    color: rgb(255 255 255 / 0.95);
+    padding: 15px;
+    background-color: rgb(0 0 0 / 50%);
+    animation: fadein 500ms 0ms cubic-bezier(0.42,0,0,1) forwards, tItemAnimat 500ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+    border-radius: 10px;
+}
+
+/* Trade Item Locked */
+.tItemBound {
+    padding: 30px;
+    padding-right: 32px;
+    top: 0px;
+    left: 0px;
+    background: rgb(0 0 0 / 90%) !important;
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+}
+
+/* Trade Item Name */
+.tItemN {
+    color: rgb(255 255 255 / 95%);
+    right: 3px;
+    width: 80px;
+}
+
+/* Trade Item Count */
+.tItemCnt {
+    color: rgb(255 255 255 / 95%);
+    top: 3px;
+    right: 5px;
+}
+
+/* Trade Message, Trade Search */
+#tMsg , .tSearch {
+    background-color: rgb(0 0 0 / 0.5);
+    border-radius: 10px;
+    color: rgb(255 255 255 / 95%) !important;
+    border: none !important;
+}
+
+/* NO Button */
+#declineBtn {
+    background-color: #eb5656 !important;
+}
+
+/* Uncommon */
+[style="border: 2px solid #b2f252;"], [style="border: 2px solid rgb(178, 242, 82); display: inline-block;"] {
+    border: 2px solid rgb(185 255 211 / 0.6) !important;
+    box-shadow: 0px 0px 30px 2px rgb(68 255 140 / 0.2) !important;
+}
+
+/* Rare */
+[style="border: 2px solid #2196F3;"], [style="border: 2px solid rgb(33, 150, 243); display: inline-block;"] {
+    border: 2px solid rgb(185 234 255 / 60%) !important;
+    box-shadow: 0px 0px 30px 2px rgb(0 130 255 / 30%) !important;
+}
+
+/* Epic */
+[style="border: 2px solid #E040FB;"], [style="border: 2px solid rgb(224, 64, 251); display: inline-block;"] {
+    border: 2px solid rgb(208 185 255 / 60%) !important;
+    box-shadow: 0px 0px 30px 2px rgb(127 30 255 / 20%) !important;
+}
+
+/* Legendary */
+[style="border: 2px solid #FBC02D;"], [style="border: 2px solid rgb(251, 192, 45); display: inline-block;"] {
+    border: 2px solid rgb(255 191 106 / 60%) !important;
+    box-shadow: 0px 0px 30px 2px rgb(255 134 29 / 30%) !important;
+}
+
+/* Relic */
+[style="border: 2px solid #ed4242;"], [style="border: 2px solid rgb(237, 66, 66); display: inline-block;"] {
+    border: 2px solid rgb(255 115 155 / 60%) !important;
+    box-shadow: 0px 0px 30px 2px rgb(255 0 76 / 20%) !important;
+}
+
+/* Contraband */
+[style="border: 2px solid #292929;"], [style="border: 2px solid rgb(41, 41, 41); display: inline-block;"] {
+    border: 2px solid rgb(181 181 181 / 60%) !important;
+    box-shadow: 0px 0px 30px 2px rgb(181 181 181 / 15%) !important;
+}
+
+/* Unobtainable */
+[style="border: 2px solid #fff53d;"], [style="border: 2px solid rgb(255, 245, 61); display: inline-block;"] {
+    border: 2px solid rgb(249 255 110 / 60%);
+    box-shadow: 0px 0px 30px 2px rgb(254 255 146 / 30%);
+    animation: rainBow_ModifyB 900ms linear infinite, fadein 500ms 0ms cubic-bezier(0.42,0,0,1) forwards, tItemAnimat 500ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+}
+
+/* Offer Popup */
+#offerPop {
+    color: rgb(255 255 255 / 0.95) !important;
+    background-color: #0000 !important;
+    box-shadow: none !important;
+    transform: translate(-50%,-50%) scale(1);
+    animation: fadein 500ms 0ms cubic-bezier(0.42,0,0,1) forwards, tradePopAnimat 500ms 0ms cubic-bezier(0.42,0,0,1) forwards;
+    transition-duration: 500ms;
+}
+
+/* Black Market Done */
+.blackMDone {
+    background: rgb(0 0 0 / 50%);
+    backdrop-filter: blur(10px);
+}
+
+/* Done Icon */
+[style="font-size:160px;color:#38cd3a;line-height:215px"] {
+    color: rgb(255 255 255 / 0.95) !important;
+}
+
+/* XXX (Not enough(Red) / Buyable) KR */
+.pricePF {
+    filter: brightness(3);
+}
+
+/* Trade oProf */
+#oProf {
+    color: #c3d3ff !important;
+}
+
+/* Offer to */
+.offerFrom,
+
+/* [XXX hours/days] ago */
+.offerDate
+
+{
+    color: rgb(255 255 255 / 60%);
+}
+
+/* Trade History Card */
+.offerHolder {
+    background-color: rgb(0 0 0 / 30%) !important;
+    color: rgb(255 255 255 / 50%);
+}
+
+/* 2FA Popup Background */
+#twoFAPop {
+    background: rgb(0 0 0 / 0.6);
+    backdrop-filter: blur(40px);
+    animation: blurswitch .2s;
+    transition-duration: .2s;
+}
+
+/* 2FA Popup */
+#twoFAWindow {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7);
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transform: scale3d(1) translate(-50%,-50%);
+    transition-duration: .2s !important;
+}
+
+/* ^2-Factor Auth... */
+.twoFAHeader {
+    color: rgb(255 255 255 / 0.95) !important;
+    border-bottom: 4px solid #0000 !important;
+    background-color: rgb(0 0 0 / 50%) !important;
+    box-shadow: none !important;
+    text-align: left;
+    padding-left: 19px;
+    font-size: 23px;
+}
+
+/* ^Scan QR code with... */
+#twoFAmsg {
+    font-size: 20px;
+    color: rgb(255 255 255 / 0.95) !important;
+    filter: opacity(0.95);
+}
+
+/* ^Submit */
+#twoFAbtn {
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(255 255 255 / 0.95);
+    background-color: rgb(0 0 0 / 30%);
+}

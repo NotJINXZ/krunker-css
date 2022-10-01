@@ -1,0 +1,769 @@
+/*
+
+        Capybara Clan CSS
+            Credits: JINXZ, Nighy Riy
+
+            Updated: 09/29/2022
+
+        ^^    Do Not Remove THIS    ^^ 
+
+
+*/
+
+
+/* Configs ================================================================================== */
+
+:root {
+
+    /* Dark Background Color */
+     --dark-bg-color: linear-gradient(180deg, rgba(41, 42, 46, 0.3) 0%, rgba(34, 34, 39, 0.3) 100%), rgba(0, 0, 0, 0.45) !important;
+
+    /* Button 1 Color */
+     --Btn1Color: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+
+    /* Button 1 Hover Color */
+     --Btn1_HoverColor: linear-gradient(180deg, rgba(140, 137, 177, 0.3) 0%, rgba(139, 138, 181, 0.3) 100%), rgba(98, 92, 115, 0.8) !important;
+
+    /* Button 1 Active Color */
+     --Btn1_ActiveColor: linear-gradient(180deg, rgba(121, 118, 153, 0.3) 0%, rgba(113, 112, 146, 0.3) 100%), rgba(57, 56, 73, 0.8) !important;
+    
+}
+
+/* Configs ================================================================================== */
+
+
+
+/* KeyFrames ================================================================================== */
+
+/* Fadein ToolBar */
+@keyframes fadeintoolbar {
+    from {
+        transform: translateY(-5px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(3px);
+        opacity: 1;
+    }
+}
+
+/* Fadein ToolBarSub */
+@keyframes fadeintoolbarsub {
+    from {
+        transform: translateX(-5px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(2px);
+        opacity: 1;
+    }
+}
+
+/* ------Popup Animation------ */
+
+/* Width Fix */
+@keyframes popup_width_animatFix {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-141%,-153%);
+    }
+    to {
+        transform: scale3d(1) translate(-50%,-50%);
+    }
+}
+
+/* Height Fix */
+@keyframes popup_height_animatFix {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-141%,-153%);
+    }
+    to {
+        transform: scale3d(1) translate(-50%,-50%);
+    }
+}
+
+/* Width 1 */
+@keyframes popup_width_animat_1 {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-100%,-100%);
+    }
+
+    to {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+}
+
+/* Width 2 */
+@keyframes popup_width_animat_2 {
+    from {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1) translate(-50%,-50%);
+    }
+}
+
+/* Height 1 */
+@keyframes popup_height_animat_1 {
+    from {
+        transform: scale3d(0.35, 0.35, 0.35) translate(-100%,-100%);
+    }
+
+    to {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+}
+
+/* Height 2 */
+@keyframes popup_height_animat_2 {
+    from {
+        transform: scale3d(1.01, 1.01, 1.01) translate(-49.5%,-49.5%);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1) translate(-50%,-50%);
+    }
+}
+
+/* Opacity */
+@keyframes popup_opacity_animat {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ------Popup Animation------ */
+
+/* Blur Switch Effect */
+@keyframes blurswitch {
+    from {
+        background: linear-gradient(180deg, rgba(41, 42, 46, 0.1) 0%, rgba(34, 34, 39, 0.1) 100%), rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        backdrop-filter: blur(10px);
+        transition-duration: .2s;
+    }
+    to {
+        background: linear-gradient(180deg, rgba(41, 42, 46, 0.3) 0%, rgba(34, 34, 39, 0.3) 100%), rgba(0, 0, 0, 0.45);
+        opacity: 1;
+        backdrop-filter: blur(40px);
+        transition-duration: .2s;
+    }
+}
+
+/* KeyFrames ================================================================================== */
+
+
+
+/* Main ================================================================================== */
+
+/* Texts */
+* {
+    -webkit-text-stroke: 0.1px !important;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background: rgb(11 11 11 / 45%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(11 11 11 / 60%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Thumb Active */
+::-webkit-scrollbar-thumb:active {
+    background: rgb(11 11 11 / 70%) !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    transition-duration: .2s;
+    border-radius: 10px !important;
+}
+
+/* Texts */
+div.material-icons, .toolbarItem, .toolbarDropDownItem, .panelLabel, .section, .header>a, .subheader>a, .qs_textarea, #versionTxt, .windowHeader>div, .menuTabsNew>div, .inlineLabel, .mapListItem>*>a {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Left Panel */
+.left.panel {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: -4px 0px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Right Panel */
+.right.panel {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 4px 0px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Hot Top Bar */
+#hotbar {
+    background: linear-gradient(180deg, rgba(165, 167, 216, 0.3) 0%, rgba(171, 179, 223, 0.3) 100%), rgba(152, 149, 171, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px -5px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Header */
+.header {
+    background-color: rgb(21 21 21 / 27%);
+}
+
+/* Play,Host,Expore Bar */
+#playbar>div {
+    border-color: #5550 !important;
+}
+
+/* Tool Bar */
+.toolbarItem:hover, .toolbarDropDownItem:hover, .toolbarDropDownItem:hover, .eButton:hover, .publishAsset:hover {
+    border-radius: 5px;
+    background-color: #61616c;
+}
+
+/* [<] [>] Button */
+.qs_title_bar,.header>i,.subheader>i,.hide>i,.restore>i {
+    color: #ffffff !important;
+}
+
+/* Slider Checked */
+input:checked+.slider {
+    background: linear-gradient(90deg,#464646,#464646);
+}
+
+/* Range Slider Thumb */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: linear-gradient(#464646,#464646);
+}
+
+/* Moz Range Slider Thumb */
+input[type=range]::-moz-range-thumb {
+    background: linear-gradient(#464646,#464646);
+}
+
+/* Tab A New */
+.tabANew {
+    box-shadow: inset 0 -5px #989898b2;
+}
+
+/* Menu Tabs New Hover */
+.menuTabsNew>div:hover {
+    box-shadow: inset 0 -5px #6d7681b2;
+}
+
+/* Customize */
+#toglEditBtn {
+    color: #fff !important;
+}
+
+/* Add */
+#canvasAdd {
+    background: linear-gradient(180deg, rgba(169, 171, 217, 0.3) 0%, rgba(161, 169, 208, 0.3) 100%), rgba(151, 148, 171, 0.7);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+}
+
+/* Delete, Duplicate Button */
+#canvasObjEdit .eButton {
+    background: linear-gradient(180deg, rgba(169, 171, 217, 0.3) 0%, rgba(161, 169, 208, 0.3) 100%), rgba(151, 148, 171, 0.7);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+}
+
+/* Spawn...Objects Info */
+#canvasInfo {
+    background: linear-gradient(180deg, rgba(169, 171, 217, 0.3) 0%, rgba(161, 169, 208, 0.3) 100%), rgba(151, 148, 171, 0.7);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+}
+
+/* ^Texts */
+#canvasInfo .statTitle {
+    color: rgb(255 255 255 / 90%);
+}
+
+/* Canvas Button */
+#canvasUI .eButton {
+    background: linear-gradient(180deg, rgba(176, 178, 230, 0.3) 0%, rgba(184, 192, 236, 0.3) 100%), rgba(164, 160, 185, 0.7);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    transition-duration: .15s;
+}
+
+/* Tool Bar Option */
+.toolbarDropDown, div.toolbarDropDown {
+    transform: translateY(3px);
+    box-shadow: none;
+    border-radius: 7px;
+    animation: fadeintoolbar .2s;
+    background: rgb(36 36 36) !important;
+}
+
+/* ^Sub */
+.toolbarSubDropDown, div.toolbarSubDropDown {
+    transform: translateX(1.5px);
+    box-shadow: none;
+    border-radius: 7px;
+    animation: fadeintoolbarsub .2s;
+    background: rgb(36 36 36) !important;
+}
+
+/* Window Background */
+div#menuWindow, #loginPop, #importPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgb(0 0 0 / 25%) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Popup Content */
+#popupContent, #alertPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgb(0 0 0 / 25%) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* ^Icons */
+#popupContent > div > div:nth-child(1) > i {
+    filter: brightness(10);
+}
+
+/* Alert Popup Text */
+#alertPop > div > span {
+    color: rgb(255 255 255 / 0.8);
+}
+
+/* Teleport Popup */
+#teleportPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgb(0 0 0 / 25%) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Change Position */
+#teleportPop > div:nth-child(1) {
+    text-align: left !important;
+    color: rgb(240 240 240);
+}
+
+/* Button */
+.button {
+    background: var(--Btn1Color) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+}
+
+/* Button Hover */
+.button:hover {
+    background: var(--Btn1_HoverColor) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 7px !important;
+}
+
+/* Button Active */
+.button:active {
+    background: var(--Btn1_ActiveColor) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 7px !important;
+}
+
+/* Popup Background */
+#instructionHolder, #popupBack {
+    background: var(--dark-bg-color);
+    backdrop-filter: blur(40px);
+    animation: blurswitch .2s;
+    transition-duration: .2s;
+}
+
+/* Window Popups */
+#menuWindow, #publishGamePop, #publishPop, #popupContent, #importPop {
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+/* Restore Hover */
+.restore:hover {
+    background-color: rgba(40,40,40,.6);
+    box-shadow: none;
+}
+
+/* Restore Button */
+.restore {
+    background-color: rgba(100,100,100,.5);
+}
+
+/* Version */
+#versionTxt {
+    display: none;
+}
+
+/* Panel Label */
+.panelLabel {
+    background: rgb(82 79 97 / 71%);
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* Panel Button */
+.panelButton {
+    background: rgb(93 90 107 / 62%);
+}
+
+/* Input */
+.inlineInput {
+    background: rgba(245, 246, 255, 0.8) !important;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.05) !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 5px !important;
+}
+
+/* Select Mod...etc */
+.eButton, .publishAsset {
+    background: rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(20px);
+    border-radius: 7px;
+}
+
+/* import btn */
+#importPop > div.mapFndB {
+    background: #ffffff33 !important;
+}
+
+/* [NEW] */
+.mapAgeD {
+    background: rgb(255 255 255 / 0.8) !important;
+    color: rgb(0 0 0 / 0.9) !important;
+    backdrop-filter: blur(20px);
+}
+
+/* Sub Header */
+.subheader {
+    background-color: rgb(0 0 0 / 20%);
+}
+
+/* Main ================================================================================== */
+
+
+
+/* Others ================================================================================== */
+
+/* hr Line */
+hr {
+    border-color: rgb(0 0 0 / 0%);
+}
+
+/* Lock Icon */
+.lock i {
+    color: rgb(240, 240, 240) !important;
+}
+
+/* Play, Host...etc Icon */
+[style="color: #202020; font-size: 25px"] {
+    color: rgb(240, 240, 240) !important;
+}
+
+/* Quick */
+.qs_main, div.qs_main {
+    background-color: rgb(0 0 0 / 50%) !important;
+    border-radius: 7px;
+    backdrop-filter: blur(5px);
+}
+
+/* Quick */
+.qs_content, div.qs_content {
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+/* Quick Title */
+.qs_title_bar, div.qs_title_bar {
+    background-color: rgb(0 0 0 / 50%) !important;
+    border-radius: 7px 7px 0px 0px;
+}
+
+/* Quick JSON Text Area */
+.qs_textarea {
+    background-color: rgb(36 36 36) !important;
+    border-radius: 3px;
+    color: rgb(240 240 240) !important;
+}
+
+/* No Backups found */
+#menuWindow > div.windowBody {
+    color: rgb(240 240 240) !important;
+}
+
+/* Publishing Guide */
+[style="text-align:center;font-size:30px;color:#fff;margin-bottom:20px"] {
+    text-align: center;
+    font-size: 37px !important;
+    color: rgb(255 255 255 / 95%);
+    text-align: left !important;
+}
+
+/* 1. Create a Thumbnail */
+.pubGIt {
+    color: rgba(255 255 255 / 95%);
+    border-top: 3px solid rgba(0 0 0 / 0%) !important;
+    font-size: 25px;
+}
+
+/* Tip: Content */
+.pubGItSub {
+    color: rgba(255 255 255 / 70%);
+    font-size: 18px;
+}
+
+/* Publishing Guide Rule */
+.pubGRule {
+    border-bottom: 4px solid rgb(0 0 0 / 0%);
+}
+
+/* Click [here] */
+.popupLink, div.popupLink {
+    color: #c3d3ff !important;
+}
+
+/* Wrong */
+#menuWindow > div.pubGImgSplit > div:nth-child(1) > div,
+
+/* Ok */
+#menuWindow > div.pubGImgSplit > div:nth-child(2) > div
+
+{
+    filter: invert(0.1) brightness(999) opacity(0.8);
+}
+
+/* Publish */
+#menuWindow > div:nth-child(1) > div.windowHeader > div > div {
+    color: rgb(240 240 240);
+}
+
+/* Asset Name */
+.smlInput {
+    background-color: rgb(255 255 255 / 80%);
+    color: rgba(0 0 0 / 90%);
+}
+
+/* Back Button */
+#menuWindow > div:nth-child(1) > div.windowHeader > div:nth-child(1) > i {
+    color: rgb(255 255 255 / 0.95) !important;
+}
+
+/* Script Saved */
+.chatItem {
+    background: linear-gradient(180deg, rgba(169, 171, 217, 0.3) 0%, rgba(161, 169, 208, 0.3) 100%), rgba(151, 148, 171, 0.7) !important;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    transition-duration: .15s;
+    animation: popup_opacity_animat 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+}
+
+/* Script Saved Icon */
+#warning_scriptSaving > div > i {
+    color: rgb(255 255 255 / 95%) !important;
+}
+
+/* Warning Icon */
+
+/* Error: Socket timed out */
+#warning_error > div > i,
+
+/* Collidable Object limit */
+#warning_objects_col > div > i,
+
+/* Object limit */
+#warning_objects > div > i,
+
+/* Verified/Premium Collidable Object limit */
+#warning_objectsF_col > div > i,
+
+/* Verified/Premium Object limit */
+#warning_objectsF > div > i
+
+{
+    color: rgb(255 255 255 / 0.95) !important;
+}
+
+/* Map Test Popup */
+#mapTestPop {
+    padding: 7px;
+    border-radius: 15px;
+    border: solid 2px rgb(0 0 0 / 0%);
+    background-color: rgb(12 12 13);
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+}
+
+/* ^Frame */
+#mapTestFrame {
+    border-radius: 10px;
+}
+
+#publishGamePop, #publishPop {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7) !important;
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgb(0 0 0 / 25%) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    transition-duration: .2s !important;
+    transform: scale3d(1) translate(-50%,-50%);
+}
+
+#pubGame {
+    background: rgb(0 0 0 / 30%) !important;
+}
+
+[style="color:rgba(255, 255, 255, 0.6)!important;margin-top:4px;margin-bottom:10px;border-bottom:2px solid;padding-bottom:10px;"], [style="color:rgba(255, 255, 255, 0.6)!important;font-size:14px;margin-top:12px;border-top:2px solid;padding-top:10px;"] {
+    border-bottom: 2px solid #0000 !important;
+    border-top: 2px solid #0000 !important;
+}
+
+input:checked+.slider2 {
+     background: linear-gradient(90deg,#464646,#464646);
+}
+
+.publishLeft {
+    border: 4px solid #0000;
+    border-radius: 10px;
+}
+
+#gameThumbnailPrev {
+    border-radius: 10px;
+}
+
+.changeThumb {
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+#gameThumbnailSize {
+    text-shadow: none;
+}
+
+/* Pub Hed (Ex. Import Map...etc) */
+.pubHed {
+    color: rgb(255 255 255 / 0.95) !important;
+    text-align: left;
+    padding-left: 15px;
+    width: calc(100% + 15px);
+}
+
+.qs_content, .quickAddButton {
+    background-color: rgb(0 0 0 / 0.3) !important;
+}
+
+/* Copy Paste Map Text Here */
+[style="color:rgba(255,255,255,0.7);font-size:19px;text-align:center;margin-bottom:15px;margin-top: -10px;"] {
+    text-align: left !important;
+}
+
+/* 2FA Popup Background */
+#twoFAPop {
+    background: rgb(0 0 0 / 0.6);
+    backdrop-filter: blur(40px);
+    animation: blurswitch .2s;
+    transition-duration: .2s;
+}
+
+/* 2FA Popup */
+#twoFAWindow {
+    background: linear-gradient(180deg, rgba(178, 204, 255, 0.3) 0%, rgba(194, 204, 255, 0.3) 100%), rgba(104, 105, 130, 0.7);
+    border: 1px solid rgba(225, 225, 225, 0.4) !important;
+    box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 10px !important;
+    animation: popup_width_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_width_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_1 250ms 0ms cubic-bezier(0.42,0,0,1) forwards, popup_height_animat_2 203ms 250ms cubic-bezier(0.42,0,0,1) forwards, fadein 250ms 0ms cubic-bezier(0.42,0,0.021025641025640973,0.9846153846153847) forwards;
+    transform: scale3d(1) translate(-50%,-50%);
+    transition-duration: .2s !important;
+}
+
+/* ^2-Factor Auth... */
+.twoFAHeader {
+    color: rgb(255 255 255 / 0.95) !important;
+    border-bottom: 4px solid #0000 !important;
+    background-color: rgb(0 0 0 / 50%) !important;
+    box-shadow: none !important;
+    text-align: left;
+    padding-left: 19px;
+    font-size: 23px;
+}
+
+/* ^Scan QR code with... */
+#twoFAmsg {
+    font-size: 20px;
+    color: rgb(255 255 255 / 0.95) !important;
+    filter: opacity(0.95);
+}
+
+/* ^Submit */
+#twoFAbtn {
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(255 255 255 / 0.95);
+    background-color: rgb(0 0 0 / 30%);
+}
+
+/* For lost Passwords/Accounts... */
+[style="width:100%;text-align:center;margin-top:10px;background-color:rgba(0,0,0,0.3);padding-top:10px;padding-bottom:20px;"] {
+    border-radius: 10px;
+}
+
+/* Login */
+#referralHeader {
+    background-color: rgb(0 0 0 / 0.4);
+    border-radius: 10px;
+}
+
+/* Popup Message */
+[style="text-align:center;font-size:20px;color:rgba(255,255,255,0.5)"] {
+    font-size: 17px !important;
+}

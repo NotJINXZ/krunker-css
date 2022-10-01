@@ -1,0 +1,33 @@
+{
+	"name": "Capybara CSS Loader",
+	"version": "2.0.0",
+	"manifest_version": 2,
+	"description": "Capy Clan Krunker CSS Loader - Made by Tehchy",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.krunker.io/*",
+		"http://127.0.0.1:8080/*"
+	],
+	"web_accessible_resources": [
+		"*.obj", 
+		"*.fbx", 
+		"*.gltf", 
+		"*.png",
+		"*.jpeg",
+		"*.jpg",
+		"*.mp4",
+		"*.mp3",
+		"*.css",
+		"*.json",
+		"*.ttf",
+		"*.otf",
+		"*.ico",
+		"*.svg",
+		"*.txt",
+		"*.json"
+	],
+	"background": {
+		"scripts": ["init.js"]
+	}
+}
