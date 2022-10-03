@@ -13,20 +13,24 @@
     If you reuse anypart of this code make sure to mention me.
 */
 
-#freeKRClaimTxt,.hostMapName,.hostMapVersion,.hostMapYear,.optName,.strmCat,.strmLink{text-shadow:none}.button,.button.small:hover,.button:hover{background-color:transparent!important}#menuBtnHost::after,.button.lgn,.button.small,.menuItem .menuItemTitle{font-size:18px!important}.menuItem,.standout{pointer-events:none}#menuWindow,input:focus+.slider,input:focus+.slider2,input:focus+.sliderSml{box-shadow:none}.tabANew,.tabANew:hover{border-bottom:none!important}#mailIcon:hover,.mapListThumb:hover{opacity:1;transform:none}#instructions,#mLevelCont::before,#mapInfo,#menuBtnHost::after,#menuClassName,#menuClassSubtext,#menuRegionLabel,#uiBase.onMenu #spectButton,.button,.menuItem .menuItemTitle,.strmCat::before{text-transform:var(--text-transform)}#fpsDisplay,#menuBtnHost,.premiumSkinCol,.setHed>hr,.standout,.strmCat{visibility:hidden}#fpsDisplay,#pingDisplay{text-shadow:2px 2px 3px rgba(30,30,30,.5)}:root{--text-color:#3f3f3f;--accent-color:#cfbfff;--health-color:white;--ammo-color:white;--premium-color:#cfbfff;--verified-color:#cfbfff;--menu-bg-color:rgba(255, 255, 255, 1);--menu-bg-color-secondary:rgba(230, 230, 230, 1);--ingame-bg-color:rgba(15, 15, 15, .2);--text-transform:none}@font-face{font-family:gamefont;src:url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2)}@font-face{font-family:hpammo;src:url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2)}*,.classHP,.classLvl,.classWeap,.hostToggle,.menuTabNew,.pListName,.settText,a,a:active,a:visited{color:var(--text-color)}#spectButton :not(.switchsml),[style*="color:#9eeb56"]{color:#fff!important}#pingIcon,.chatMsg[style*="color:#fc03ec"],.menuItemTitle:hover,.modeStatus,.premiumSkinCol:hover::before,.settText .floatR[style*="color:rgba(0,0,0,0.5)"],[style*="color:#eb5656"]{color:var(--accent-color)!important}#freeKRClaimTxt,option{color:var(--text-color)}#aHolder,#braveWarning,#challIcon,#editorBtnM,#mainLogo,#merchImg,#newsHolder,#onetrust-consent-sdk,#seasonLabel,#weapDisplay,#youNewDiv,.endAHolder,.imageButton,.krSocial,.serverPing,.streamPartner,.strmIcn,[style*="margin-top:10px;font-size:20px;color:rgba(255,255,255,0.4)"]{display:none!important}option{background-color:#fff}.menuLink:hover,a:hover{color:var(--accent-color);text-decoration:none}#clientExitPop>div[style*="color:#fff;font-size:20px;position:relative;margin-bottom:15px;"],#instructionsUpdate>div,.button[onclick*="claimReward();"],.settLabel[style*="color:#2196F3"],[style*="color:rgba(0,0,0,0.3)"],b,b span,input{color:var(--text-color)!important}.material-icons{font-family:'Material Icons';font-size:24px;font-style:normal;font-weight:400}#leaderContainer i[style*="color:#40C4FF"],.material-icons[style*="color:#2196F3;font-size:33px;vertical-align:bottom;"],.material-icons[style*="color:#40C4FF"],.material-icons[style*="color:#FBC02D"],.menuClassPlayerVerified{color:var(--verified-color)!important}#instructions{color:#fff;font-size:24px;animation:none;-webkit-animation:none}#claimPop,#clientExitPop,#instructionsUpdate{background-color:var(--menu-bg-color);border-radius:20px}#confirmBtn,#declineBtn{color:#fff!important;text-shadow:none}#tlInfHold{position:fixed;left:11px;top:110px}#streamContainer{background-color:transparent;left:0;height:20px;overflow:hidden;transition:1s}#streamContainer:hover{height:300px}.strmCat{font-size:18px}.strmCat::before{visibility:visible;content:'Channels'}.streamItem[style="text-align: center;"]{text-align:left!important}.button,.button.small{text-shadow:none!important;box-shadow:none!important}.accountButton:hover,.chalRight,.crVal,.endTableN,.hostPresetBtn:hover,.hostToggle:hover,.leaderName,.loadoutBtn:hover,.mailFrom,.newLeaderName,.newLeaderNameF,.newLeaderNameM,.punishButton:hover,.settingsBtn:hover,.strmViews,.teamTotalN1{color:var(--accent-color)}#uiBase.onMenu #spectButton{position:fixed;left:20px;top:85px;transform:none}.button{color:#fff!important}.slider,.sliderCent{background-color:var(--menu-bg-color-secondary)}#mailCount,.chalCard,.quickJoin,.shopCard,.voteHint{text-shadow:none}.button:hover{color:var(--accent-color)!important;-webkit-transform:none;transform:none}input:checked+.slider2::before,input:checked+.slider::before{top:6px;-webkit-transform:none;-ms-transform:none;font-size:16px}.buttonG,.buttonG:hover,.buttonP,.buttonP:hover,.buttonPI,.buttonPI:hover,.buttonR,.buttonR:hover{box-shadow:none!important}.button.lgn{position:absolute;left:0;width:max-content!important;padding-left:22px!important;margin-left:8px!important}#ammoIcon,#ammoMax,#curGameInfo,#customizeButton .material-icons,#deathsIcon,#healthBar,#hudClassIcon,#killsIcon,#livesCount .material-icons,#maxHP,#menuMiniProfilePic,#menuPingIcon,#policeButton,#requiresRestart,#scoreCount .material-icons,#streakIcon,#timerIcon,#voiceDisplay,.button.lgn .material-icons,.carousel,.headerBarRight .verticalSeparator,.menuClassPlayerVirus,.slider2::before,.slider::before,.sliderSml::before,.tScoreM{display:none}#teamSelector{bottom:150px}.centSwitch{margin-top:0}.sliderCent{border-radius:6px}.sliderCent::before{height:17px;width:15px;left:1px;bottom:0;border-radius:6px;background-color:var(--accent-color)}.switch,.switchsml{margin-bottom:0}.slidecontainer{margin-top:3px}.slider{width:28px!important;height:28px!important;left:16px;border-radius:12px}.xpEndBarB,input:checked+.optCheck,input:checked+.slider,input:checked+.slider2,input:checked+.sliderSml{background-color:var(--accent-color)}input:checked+.slider::before{display:inline-block;position:absolute;left:6px;background-color:transparent;color:#fff;font-family:'Font Awesome 5 Free';font-weight:900;content:'\f00c';transform:none}input:checked+.slider2::before,input:checked+.sliderSml::before{position:absolute;left:4px;background-color:transparent;font-family:'Font Awesome 5 Free';font-weight:900;content:'\f00c';color:#fff;display:inline-block}.slider2{width:28px;border-radius:10px;background-color:var(--menu-bg-color-secondary)}input:checked+.slider2::before{transform:none}.sliderM{border-radius:8px!important;background-color:var(--menu-bg-color-secondary)!important}.sliderM::-webkit-slider-thumb{border-radius:8px;background:var(--accent-color)}.sliderM::-moz-range-thumb{border-radius:8px;background:var(--accent-color)}.sliderSml{background-color:var(--menu-bg-color-secondary);width:20px;height:20px;border-radius:8px}input:checked+.sliderSml::before{top:4px;font-size:12px;-webkit-transform:none;-ms-transform:none;transform:none}.sliderVal{height:16px;font-size:16px;border-radius:10px;background:var(--accent-color)}input{background:var(--menu-bg-color-secondary)!important;border-radius:10px!important}input::placeholder{color:#fff!important}input[type=color]{border:4px solid var(--menu-bg-color-secondary);border-radius:10px!important}.inputGrey,.inputGrey2{background:var(--menu-bg-color-secondary);border-radius:10px}.smlInput{background-color:var(--menu-bg-color-secondary);border-radius:10px!important}#endTable,#mLevelCont,#matchVoteHolder,#medalTable,#termsInfo,.endSection,.gfSection,.headerBarLeft,.headerBarRight,.hostOpt,.hostPresetBtn,.hostToggle,.hostToggle:hover,.loadMoreD:hover,.mapActionOvrl,.mapListItem,.menuTabsNew,.pListTable,.readAll:hover,.verticalSeparator{background-color:transparent}.smlInput::placeholder{color:#fff}.lnkTw,.readAll,.searchBtn,.subPassChg{background-color:transparent;color:var(--text-color)}.searchBtn:hover,.voteHint:hover{color:var(--accent-color);filter:none;-webkit-filter:none}#chatHolder,#timerDisplay{background-color:var(--ingame-bg-color)}#menuAccountUsername{font-size:16px;margin-left:10px}#menuKRCount{color:#fff;font-size:16px}.progressBar{background:var(--menu-bg-color-secondary);padding:0;border-radius:4px}.progressBarInner{background:var(--accent-color);border-radius:4px}#mLevelCont::before{content:'LVL '}#mLevelCont{width:max-content}#mailCount{background-color:var(--accent-color)}.classXPBar,.mailObj,.optCheck{background-color:var(--menu-bg-color-secondary);border-radius:10px}.loadMoreD:hover,.readAll:hover{color:var(--accent-color)}.menuItem:active,.menuItem:hover{background:0 0;color:#fff}#menuFPSDisplay,#menuPingDisplay,.terms{color:#fff;text-transform:var(--text-transform)}#menuFPS,#pingText{color:#fff!important}#menuPingDisplay::after{content:' ms'}#menuPingText,.crLabel,.fundsVal,.tabHeader,.teamTotalN0,.xpLvl{color:#fff}#menuItemContainer{width:fit-content;height:min-content;top:50px;left:50%;transform:translateX(-50%);flex-direction:row}.menuItem{align-items:center;background:0 0;padding-bottom:5px;padding-left:22px;padding-right:22px}#settingsTabLayout,.voteHint{background-color:transparent!important}.menuItem:hover{border-left:none}.menuItem .menuItemTitle{margin-top:0;color:#fff!important;pointer-events:all;transition:.2s}.menuItem .menuItemIcon{position:relative;width:100%;height:45%;background-size:contain;background-position:center;background-repeat:no-repeat;display:none}#subLogoButtons{bottom:50px;transform:translateX(-50%)}#menuBtnHost{font-size:0!important}#menuBtnHost::after{visibility:visible;content:'Host'}.verticalSeparatorInline{visibility:hidden;height:0}#mapInfo{font-size:18px}.terms:hover{text-decoration:none;color:var(--accent-color)}.standout{font-size:0}.standout::before{content:'css.reizu.moe';font-size:18px;margin-right:22px;color:rgba(255,255,255,.5);visibility:visible}.standout::after{content:'Advertise';font-size:18px;pointer-events:all;visibility:visible}#modVote,.floatR,.menuLink,.menuSelector,.menuSelectorHeader,.settLabel,.wepLink{font-size:18px}.voteHint{color:#fff}.material-icons.vote{color:#fff;font-size:18px}#leaderContainer i[style*="color:#FBC02D"],.menuClassPlayerPremium{color:var(--premium-color)!important}#menuClassName,#menuClassSubtext{text-shadow:none}#menuWindow{max-height:calc(100% - 300px)!important;background-color:var(--menu-bg-color);border-radius:20px}.menuTabNew:hover,.settingTab:hover{color:var(--accent-color);border-bottom:none!important}.tabANew{color:var(--accent-color)!important}.settText:hover,.wepLink:hover{color:var(--accent-color)!important;text-decoration:none}.settName,.settNameSmall{color:var(--text-color);font-size:18px;margin-top:10px!important;margin-bottom:15px!important}.settNameSmall{font-size:16px}.accountInput{background-color:var(--menu-bg-color-secondary);font-size:18px;border-radius:10px!important}.accountInput::placeholder{color:#fff;font-size:18px}.accountButton,.loadoutBtn{background-color:transparent;color:var(--text-color);font-size:18px}#modDropper,#serverSearch,#settSearch,.chalXPBar,.xpBar{background-color:var(--menu-bg-color-secondary)}#killCard,#profilePicM,.classImgC,.mapListThumb,.matchVoteThumb,.partyAvatar,.pfpAction,.rankedSelection,.rankedWarning{border-radius:10px}.chalXPBar,.xpBar{height:20px;padding:0;border-radius:8px}.xpBarB{background-color:var(--accent-color);border-radius:8px}.xpBarV{top:0;color:var(--text-color)}.lnkTw:hover,.subPassChg:hover{background-color:transparent;color:var(--accent-color);transform:none}.shopCard{border-radius:0}.chalCard{background-color:transparent}.chalDesc{color:rgba(0,0,0,.5)}.chalProg,.loadMoreD{color:var(--text-color)}.chalXPBarC{height:20px;background-color:var(--accent-color);border-radius:8px}.chalProg{font-size:15px}.mapListThumb:hover{filter:brightness(1.1)}#modDropper{border:4px solid transparent;border-radius:10px}.loadMoreD,.loadMoreW{border-radius:0;font-size:18px;background-color:transparent}.loadMoreW{color:var(--accent-color)}#settingsTabLayout{font-size:18px}.settingsBtn{background-color:transparent;color:var(--text-color);font-size:14px}.plusOrMinus{color:var(--accent-color);font-size:36px!important;margin-right:-8px!important}.hostMap{border-radius:10px;border:none}.hostOpt{border-radius:0;border:none}.hostPresetBtn{color:var(--text-color);font-size:18px}#loadoutSelect,#presetSelect{background-color:var(--menu-bg-color-secondary)!important;border-radius:10px!important}.serverHeader{background-color:transparent;position:relative}.quickJoin{background-color:var(--accent-color);color:#fff;border-radius:5px}.quickJoin:hover{-webkit-transform:none;transform:none}#teamScores,#timerDisplay{left:50%;transform:translateX(-50%);width:150px;margin:0;padding:0;position:fixed}#serverSearch,#settSearch{font-size:18px;border-radius:10px}#serverSearch::placeholder,#settSearch::placeholder{color:#fff;font-size:18px}.jQR{background-color:transparent!important;color:var(--text-color)!important;box-shadow:none!important}.classCard,.joinQueue{color:var(--text-color);text-shadow:none;background-color:transparent}.jQR:active,.jQR:hover{color:var(--accent-color)!important;box-shadow:none!important}.joinQueue{box-shadow:none}.joinQueue:active,.joinQueue:hover{height:60px;margin-top:10px;color:var(--accent-color);box-shadow:none}.clsXPBarC{margin:0;background-color:var(--accent-color);height:26px;border-radius:10px}.chatItem,.punishButton{background-color:transparent!important}.skinColorItem{width:24px;height:24px;border:none}.premiumSkinCol{font-size:0!important;margin-top:0;margin-left:20px}.premiumSkinCol::before{visibility:visible;color:var(--text-color)!important;font-family:gamefont!important;font-size:18px!important;content:'Add'}.setHed{color:var(--accent-color);font-size:18px}.punishButton{color:var(--text-color);text-shadow:none}#chatInput{background-color:var(--ingame-bg-color)!important;color:#fff!important;font-size:16px;border-radius:0 0 10px 10px!important}#chatInput::placeholder{color:rgba(255,255,255,.5)!important;text-transform:var(--text-transform)}#chatHolder{bottom:20px!important;left:20px!important;border-radius:10px}.chatItem{border-radius:0}::-webkit-scrollbar-track{-webkit-box-shadow:none;box-shadow:none;border-radius:10px!important;background-color:transparent!important}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-thumb{visibility:hidden;border-radius:10px!important;background:#fff;-webkit-box-shadow:none;box-shadow:none}#chatList::-webkit-scrollbar{width:5px}#chatList::-webkit-scrollbar-thumb{visibility:visible}#ingameFPS{color:#fff!important;visibility:visible}#endTimer,.matchVote,.xpEndBarV{text-shadow:none}#pingDisplay .material-icons{font-size:22px}#timerDisplay{text-align:center;top:0;height:35px;border-radius:0;will-change:unset}#timerVal{font-size:28px;padding-left:0;will-change:unset}#teamScores{top:35px;height:25px;border-radius:0;background-color:transparent}.tScore{display:inline-block}#tScoreV1{position:fixed;left:-25%;top:4px}#tScoreV2{position:fixed;left:25%;top:4px}.tScoreT{width:100%;text-align:center;font-size:15px;color:#fff;z-index:2}.tScoreC,.tScoreF{left:50%;width:75px;height:25px;margin-right:0}.tScoreC,.tScoreC.you,.tScoreF,.tScoreF.you{opacity:50%;z-index:1}.tScoreF{padding-left:0;padding-right:0;background-color:#eb5656;color:transparent}.tScoreF.you{background-color:#5699eb;color:transparent}.tScoreC{background-color:var(--accent-color)}#leaderDisplay,.endCard,.kfItem,.newLeaderContainer,.teamTotals{background-color:var(--ingame-bg-color);border-radius:10px}.tScoreC.you{background-color:#fff}.leaderItem .material-icons{margin-top:0!important}#endTimer{color:#fff;font-style:normal}.endCard{left:50%!important}#kdLayout,#tabHolder,.crStat{background-color:transparent}#tabHolder{border-radius:0}.tabHeader.selected,.tabHeader:hover{color:var(--accent-color);border-bottom:none}#kdLayout,.crStat{border:none}.xpRnk{width:0}.xpEndBar{border-radius:0;background-color:rgba(0,0,0,.5)}.xpEndBarV{top:10px}.matchVote{border-radius:10px}#ammoDisplay,.countIcon{background-color:transparent;border-radius:0}.topRightCounters{position:fixed;bottom:15px;right:15px}.countIcon{margin-left:20px;margin-bottom:0;padding:7px}#deathsVal,#killsVal,#livesDisp,#myScoreVal,#streakVal{color:#fff!important;bottom:7px;font-size:36px;display:flex;justify-content:center;text-shadow:2px 2px 3px rgba(30,30,30,.5)}#ammoVal,#healthValue{font-size:48px;font-family:hpammo;letter-spacing:2px;text-shadow:2px 2px 3px rgba(30,30,30,.5)}#deathsVal::after,#killsVal::after,#livesDisp::after,#myScoreVal::after,#streakVal::after{display:block;position:fixed;margin-top:45px;font-size:14px;text-shadow:2px 2px 3px rgba(30,30,30,.5)}#deathsVal::after{content:'Deaths'}#killsVal::after{content:'Kills'}#streakVal::after{content:'Streak'}#myScoreVal::after{content:'Score'}#livesDisp::after{content:'Lives'}#killStreakHolder{position:fixed;bottom:75px;right:15px;margin-right:0;margin-bottom:0}.killStreakItem{width:50px;height:50px;background-color:transparent}#healthValueHolder{background-color:transparent;width:100px;height:65px;border-radius:10px;position:fixed;left:30%;bottom:25%;padding:0;margin-bottom:0;align-items:center}#healthValue{color:var(--health-color);margin-top:0;will-change:unset}#ammoDisplay{position:fixed;background-image:url(https://dummyimage.com/1x1/ffffff/ffffff.png);transform:none;width:50px;height:4px;top:calc(50% + 35px);left:calc(50% - 25px);padding:0}#ammoVal{position:fixed;right:31%;bottom:25%;color:var(--ammo-color)}#reloadMsg{background:0 0!important}#gameMessage{top:70px;font-size:18px;text-shadow:2px 2px 3px rgba(30,30,30,.5)}#accManagerBtn{margin:0!important;box-shadow:none!important}
 
 
+/* Ignore This */
+#endTimer,#freeKRClaimTxt,#mailCount,#menuClassName,#menuClassSubtext,.chalCard,.hostMapName,.hostMapVersion,.hostMapYear,.matchVote,.optName,.quickJoin,.shopCard,.strmCat,.strmLink,.voteHint,.xpEndBarV{text-shadow:none}#ammoVal,#deathsVal,#fpsDisplay,#gameMessage,#healthValue,#kdVal,#killsVal,#livesDisp,#myScoreVal,#pingDisplay,#streakVal{text-shadow:2px 2px 3px rgba(30,30,30,.5)}#settingsTabLayout,.button,.button.small:hover,.button:hover,.chatItem,.punishButton,.voteHint{background-color:transparent!important}#menuBtnHost::after,.button.lgn,.button.small,.menuItem .menuItemTitle{font-size:18px!important}.menuItem,.standout{pointer-events:none}#menuWindow,.joinQueue,input:focus+.slider,input:focus+.slider2,input:focus+.sliderSml{box-shadow:none}.button,.button.small,.buttonG,.buttonG:hover,.buttonP,.buttonP:hover,.buttonPI,.buttonPI:hover,.buttonR,.buttonR:hover,.jQR,.jQR:active,.jQR:hover{box-shadow:none!important}.tabANew,.tabANew:hover{border-bottom:none!important}#mailIcon:hover,.mapListThumb:hover{opacity:1;transform:none}#instructions,#mLevelCont::before,#mapInfo,#menuBtnHost::after,#menuClassName,#menuClassSubtext,#menuRegionLabel,#uiBase.onMenu #spectButton,.button,.menuItem .menuItemTitle,.strmCat::before{text-transform:var(--text-transform)}#fpsDisplay,#menuBtnHost,.premiumSkinCol,.setHed>hr,.standout,.strmCat{visibility:hidden}:root{--text-color:#3f3f3f;--accent-color:#cfbfff;--health-color:white;--ammo-color:white;--premium-color:#cfbfff;--verified-color:#cfbfff;--menu-bg-color:rgba(255, 255, 255, 1);--menu-bg-color-secondary:rgba(230, 230, 230, 1);--ingame-bg-color:rgba(15, 15, 15, .2);--text-transform:none}@font-face{font-family:gamefont;src:url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2)}@font-face{font-family:hpammo;src:url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2)}#freeKRClaimTxt,*,.chalProg,.classHP,.classLvl,.classWeap,.hostToggle,.loadMoreD,.menuTabNew,.pListName,.settText,a,a:active,a:visited,option{color:var(--text-color)}#spectButton :not(.switchsml),.button,[style*="color:#9eeb56"]{color:#fff!important}#pingIcon,.chatMsg[style*="color:#fc03ec"],.menuItemTitle:hover,.modeStatus,.premiumSkinCol:hover::before,.settText .floatR[style*="color:rgba(0,0,0,0.5)"],.tabANew,[style*="color:#eb5656"]{color:var(--accent-color)!important}#aHolder,#braveWarning,#challIcon,#editorBtnM,#mainLogo,#merchImg,#newsHolder,#onetrust-consent-sdk,#seasonLabel,#weapDisplay,#youNewDiv,.endAHolder,.imageButton,.krSocial,.serverPing,.streamPartner,.strmIcn,[style*="margin-top:10px;font-size:20px;color:rgba(255,255,255,0.4)"]{display:none!important}.tScoreC.you,option{background-color:#fff}.menuLink:hover,a:hover{color:var(--accent-color);text-decoration:none}#clientExitPop>div[style*="color:#fff;font-size:20px;position:relative;margin-bottom:15px;"],#instructionsUpdate>div,.button[onclick*="claimReward();"],.settLabel[style*="color:#2196F3"],[style*="color:rgba(0,0,0,0.3)"],b,b span,input{color:var(--text-color)!important}.material-icons{font-family:'Material Icons';font-size:24px;font-style:normal;font-weight:400}#leaderContainer i[style*="color:#40C4FF"],.material-icons[style*="color:#2196F3;font-size:33px;vertical-align:bottom;"],.material-icons[style*="color:#40C4FF"],.material-icons[style*="color:#FBC02D"],.menuClassPlayerVerified{color:var(--verified-color)!important}#instructions{color:#fff;font-size:24px;animation:none;-webkit-animation:none}#claimPop,#clientExitPop,#instructionsUpdate{background-color:var(--menu-bg-color);border-radius:20px}#confirmBtn,#declineBtn{color:#fff!important;text-shadow:none}#tlInfHold{position:fixed;left:11px;top:110px}#streamContainer{background-color:transparent;left:0;height:20px;overflow:hidden;transition:1s}#streamContainer:hover{height:300px}#mapInfo,#modVote,#settingsTabLayout,.floatR,.menuLink,.menuSelector,.menuSelectorHeader,.settLabel,.strmCat,.wepLink{font-size:18px}.strmCat::before{visibility:visible;content:'Channels'}.streamItem[style="text-align: center;"]{text-align:left!important}.button,.button.small{text-shadow:none!important}.accountButton:hover,.chalRight,.crVal,.endTableN,.hostPresetBtn:hover,.hostToggle:hover,.leaderName,.loadMoreD:hover,.loadMoreW,.loadoutBtn:hover,.mailFrom,.newLeaderName,.newLeaderNameF,.newLeaderNameM,.punishButton:hover,.readAll:hover,.settingsBtn:hover,.strmViews,.teamTotalN1{color:var(--accent-color)}#uiBase.onMenu #spectButton{position:fixed;left:20px;top:85px;transform:none}#modDropper,#serverSearch,#settSearch,.chalXPBar,.slider,.sliderCent,.xpBar{background-color:var(--menu-bg-color-secondary)}#mailCount,.sliderCent::before,.tScoreC,.xpEndBarB,input:checked+.optCheck,input:checked+.slider,input:checked+.slider2,input:checked+.sliderSml{background-color:var(--accent-color)}.button:hover{color:var(--accent-color)!important;-webkit-transform:none;transform:none}input:checked+.slider2::before,input:checked+.slider::before,input:checked+.sliderSml::before{position:absolute;background-color:transparent;font-family:'Font Awesome 5 Free';font-weight:900;content:'\f00c';color:#fff}input:checked+.slider2::before,input:checked+.slider::before{top:6px;-webkit-transform:none;-ms-transform:none;font-size:16px}.button.lgn{position:absolute;left:0;width:max-content!important;padding-left:22px!important;margin-left:8px!important}#ammoIcon,#ammoMax,#curGameInfo,#customizeButton .material-icons,#deathsIcon,#healthBar,#hudClassIcon,#kdIcon,#killsIcon,#livesCount .material-icons,#maxHP,#menuMiniProfilePic,#menuPingIcon,#policeButton,#requiresRestart,#scoreCount .material-icons,#streakIcon,#timerIcon,#voiceDisplay,.button.lgn .material-icons,.carousel,.headerBarRight .verticalSeparator,.menuClassPlayerVirus,.slider2::before,.slider::before,.sliderSml::before,.tScoreM{display:none}#teamSelector{bottom:150px}.centSwitch{margin-top:0}.sliderCent{border-radius:6px}.sliderCent::before{height:17px;width:15px;left:1px;bottom:0;border-radius:6px}.switch,.switchsml{margin-bottom:0}.slidecontainer{margin-top:3px}.slider{width:28px!important;height:28px!important;left:16px;border-radius:12px}input:checked+.slider::before{display:inline-block;left:6px;transform:none}input:checked+.slider2::before,input:checked+.sliderSml::before{left:4px;display:inline-block}.slider2{width:28px;border-radius:10px;background-color:var(--menu-bg-color-secondary)}input:checked+.slider2::before{transform:none}.sliderM{border-radius:8px!important;background-color:var(--menu-bg-color-secondary)!important}.sliderM::-webkit-slider-thumb{border-radius:8px;background:var(--accent-color)}.sliderM::-moz-range-thumb{border-radius:8px;background:var(--accent-color)}.sliderSml{background-color:var(--menu-bg-color-secondary);width:20px;height:20px;border-radius:8px}input:checked+.sliderSml::before{top:4px;font-size:12px;-webkit-transform:none;-ms-transform:none;transform:none}.sliderVal{height:16px;font-size:16px;border-radius:10px;background:var(--accent-color)}input{background:var(--menu-bg-color-secondary)!important;border-radius:10px!important}input::placeholder{color:#fff!important}input[type=color]{border:4px solid var(--menu-bg-color-secondary);border-radius:10px!important}.inputGrey,.inputGrey2{background:var(--menu-bg-color-secondary);border-radius:10px}.smlInput{background-color:var(--menu-bg-color-secondary);border-radius:10px!important}#endTable,#kdLayout,#mLevelCont,#matchVoteHolder,#medalTable,#tabHolder,#termsInfo,.chalCard,.crStat,.endSection,.gfSection,.headerBarLeft,.headerBarRight,.hostOpt,.hostPresetBtn,.hostToggle,.hostToggle:hover,.loadMoreD:hover,.mapActionOvrl,.mapListItem,.menuTabsNew,.pListTable,.readAll:hover,.verticalSeparator{background-color:transparent}.smlInput::placeholder{color:#fff}.lnkTw,.readAll,.searchBtn,.subPassChg{background-color:transparent;color:var(--text-color)}.searchBtn:hover,.voteHint:hover{color:var(--accent-color);filter:none;-webkit-filter:none}#chatHolder,#timerDisplay{background-color:var(--ingame-bg-color)}#menuAccountUsername{font-size:16px;margin-left:10px}#menuKRCount{color:#fff;font-size:16px}.progressBar{background:var(--menu-bg-color-secondary);padding:0;border-radius:4px}.progressBarInner{background:var(--accent-color);border-radius:4px}#mLevelCont::before{content:'LVL '}#mLevelCont{width:max-content}.classXPBar,.mailObj,.optCheck{background-color:var(--menu-bg-color-secondary);border-radius:10px}.menuItem:active,.menuItem:hover{background:0 0;color:#fff}#menuFPSDisplay,#menuPingDisplay,.terms{color:#fff;text-transform:var(--text-transform)}#menuFPS,#pingText{color:#fff!important}#menuPingDisplay::after{content:' ms'}#menuPingText,.crLabel,.fundsVal,.tabHeader,.teamTotalN0,.voteHint,.xpLvl{color:#fff}#menuItemContainer{width:fit-content;height:min-content;top:50px;left:50%;transform:translateX(-50%);flex-direction:row}.menuItem{align-items:center;background:0 0;padding-bottom:5px;padding-left:22px;padding-right:22px}.menuItem:hover{border-left:none}.menuItem .menuItemTitle{margin-top:0;color:#fff!important;pointer-events:all;transition:.2s}.menuItem .menuItemIcon{position:relative;width:100%;height:45%;background-size:contain;background-position:center;background-repeat:no-repeat;display:none}#subLogoButtons{bottom:50px;transform:translateX(-50%)}#menuBtnHost{font-size:0!important}#menuBtnHost::after{visibility:visible;content:'Host'}.verticalSeparatorInline{visibility:hidden;height:0}.terms:hover{text-decoration:none;color:var(--accent-color)}.standout{font-size:0}.standout::before{content:'css.reizu.moe';font-size:18px;margin-right:22px;color:rgba(255,255,255,.5);visibility:visible}.standout::after{content:'Advertise';font-size:18px;pointer-events:all;visibility:visible}.material-icons.vote{color:#fff;font-size:18px}#leaderContainer i[style*="color:#FBC02D"],.menuClassPlayerPremium{color:var(--premium-color)!important}#menuWindow{max-height:calc(100% - 300px)!important;background-color:var(--menu-bg-color);border-radius:20px}.menuTabNew:hover,.settingTab:hover{color:var(--accent-color);border-bottom:none!important}.settText:hover,.wepLink:hover{color:var(--accent-color)!important;text-decoration:none}.settName,.settNameSmall{color:var(--text-color);font-size:18px;margin-top:10px!important;margin-bottom:15px!important}.settNameSmall{font-size:16px}.accountInput{background-color:var(--menu-bg-color-secondary);font-size:18px;border-radius:10px!important}.accountInput::placeholder{color:#fff;font-size:18px}.accountButton,.loadoutBtn{background-color:transparent;color:var(--text-color);font-size:18px}.chalXPBarC,.xpBarB{background-color:var(--accent-color)}#killCard,#profilePicM,.classImgC,.mapListThumb,.matchVote,.matchVoteThumb,.partyAvatar,.pfpAction,.rankedSelection,.rankedWarning{border-radius:10px}.chalXPBar,.xpBar{height:20px;padding:0;border-radius:8px}.xpBarB{border-radius:8px}.xpBarV{top:0;color:var(--text-color)}.lnkTw:hover,.subPassChg:hover{background-color:transparent;color:var(--accent-color);transform:none}#tabHolder,.chatItem,.shopCard{border-radius:0}.chalDesc{color:rgba(0,0,0,.5)}.chalXPBarC{height:20px;border-radius:8px}.loadMoreD,.loadMoreW,.serverHeader,.settingsBtn{background-color:transparent}.chalProg{font-size:15px}.mapListThumb:hover{filter:brightness(1.1)}#modDropper{border:4px solid transparent;border-radius:10px}.loadMoreD,.loadMoreW{border-radius:0;font-size:18px}.settingsBtn{color:var(--text-color);font-size:14px}.plusOrMinus{color:var(--accent-color);font-size:36px!important;margin-right:-8px!important}.hostMap{border-radius:10px;border:none}.hostOpt{border-radius:0;border:none}.hostPresetBtn{color:var(--text-color);font-size:18px}#loadoutSelect,#presetSelect{background-color:var(--menu-bg-color-secondary)!important;border-radius:10px!important}.serverHeader{position:relative}.quickJoin{background-color:var(--accent-color);color:#fff;border-radius:5px}.quickJoin:hover{-webkit-transform:none;transform:none}#teamScores,#timerDisplay{left:50%;transform:translateX(-50%);width:150px;margin:0;padding:0;position:fixed}#serverSearch,#settSearch{font-size:18px;border-radius:10px}#serverSearch::placeholder,#settSearch::placeholder{color:#fff;font-size:18px}.jQR{background-color:transparent!important;color:var(--text-color)!important}.classCard,.joinQueue{color:var(--text-color);text-shadow:none;background-color:transparent}.jQR:active,.jQR:hover{color:var(--accent-color)!important}.joinQueue:active,.joinQueue:hover{height:60px;margin-top:10px;color:var(--accent-color);box-shadow:none}.clsXPBarC{margin:0;background-color:var(--accent-color);height:26px;border-radius:10px}.skinColorItem{width:24px;height:24px;border:none}.premiumSkinCol{font-size:0!important;margin-top:0;margin-left:20px}.premiumSkinCol::before{visibility:visible;color:var(--text-color)!important;font-family:gamefont!important;font-size:18px!important;content:'Add'}.setHed{color:var(--accent-color);font-size:18px}.punishButton{color:var(--text-color);text-shadow:none}#chatInput{background-color:#00000038!important;color:#fff!important;font-size:16px;border-radius:0 0 10px 10px!important}#chatInput::placeholder{color:rgba(255,255,255,.5)!important;text-transform:var(--text-transform)}#chatHolder{bottom:20px!important;left:20px!important;border-radius:10px}::-webkit-scrollbar-track{-webkit-box-shadow:none;box-shadow:none;border-radius:10px!important;background-color:transparent!important}::-webkit-scrollbar{width:6px}::-webkit-scrollbar-thumb{visibility:hidden;border-radius:10px!important;background:#fff;-webkit-box-shadow:none;box-shadow:none}#chatList::-webkit-scrollbar{width:5px}#chatList::-webkit-scrollbar-thumb{visibility:visible}#ingameFPS{color:#fff!important;visibility:visible}#pingDisplay .material-icons{font-size:22px}#timerDisplay{text-align:center;top:0;height:35px;border-radius:0;will-change:unset}#timerVal{font-size:28px;padding-left:0;will-change:unset}#teamScores{top:35px;height:25px;border-radius:0;background-color:transparent}.tScore{display:inline-block}#tScoreV1{position:fixed;left:-25%;top:4px}#tScoreV2{position:fixed;left:25%;top:4px}.tScoreT{width:100%;text-align:center;font-size:15px;color:#fff;z-index:2}.tScoreC,.tScoreF{left:50%;width:75px;height:25px;margin-right:0}.tScoreC,.tScoreC.you,.tScoreF,.tScoreF.you{opacity:50%;z-index:1}.tScoreF{padding-left:0;padding-right:0;background-color:#eb5656;color:transparent}.tScoreF.you{background-color:#5699eb;color:transparent}#leaderDisplay,.endCard,.kfItem,.newLeaderContainer,.teamTotals{background-color:var(--ingame-bg-color);border-radius:10px}.leaderItem .material-icons{margin-top:0!important}#endTimer{color:#fff;font-style:normal}.endCard{left:50%!important}.tabHeader.selected,.tabHeader:hover{color:var(--accent-color);border-bottom:none}#kdLayout,.crStat{border:none}.xpRnk{width:0}.xpEndBar{border-radius:0;background-color:rgba(0,0,0,.5)}.xpEndBarV{top:10px}#ammoDisplay,.countIcon{background-color:transparent;border-radius:0}.topRightCounters{position:fixed;bottom:15px;right:15px}.countIcon{margin-left:20px;margin-bottom:0;padding:7px}#deathsVal,#kdVal,#killsVal,#livesDisp,#myScoreVal,#streakVal{color:#fff!important;bottom:7px;font-size:36px;display:flex;justify-content:center}#ammoVal,#healthValue{font-size:48px;font-family:hpammo;letter-spacing:2px}#deathsVal::after,#kdVal::after,#killsVal::after,#livesDisp::after,#myScoreVal::after,#streakVal::after{display:block;position:fixed;margin-top:45px;font-size:14px;text-shadow:2px 2px 3px rgba(30,30,30,.5)}#deathsVal::after{content:'Deaths'}#killsVal::after{content:'Kills'}#kdVal::after{content:'KDR'}#streakVal::after{content:'Streak'}#myScoreVal::after{content:'Score'}#livesDisp::after{content:'Lives'}#killStreakHolder{position:fixed;bottom:75px;right:15px;margin-right:0;margin-bottom:0}.killStreakItem{width:50px;height:50px;background-color:transparent}#healthValueHolder{background-color:transparent;width:100px;height:65px;border-radius:10px;position:fixed;left:30%;bottom:25%;padding:0;margin-bottom:0;align-items:center}#healthValue{color:var(--health-color);margin-top:0;will-change:unset}#ammoDisplay{position:fixed;background-image:url(https://dummyimage.com/1x1/ffffff/ffffff.png);transform:none;width:50px;height:4px;top:calc(50% + 35px);left:calc(50% - 25px);padding:0}#ammoVal{position:fixed;right:31%;bottom:25%;color:var(--ammo-color)}#reloadMsg{background:0 0!important}#gameMessage{top:70px;font-size:18px}#accManagerBtn{margin:0!important;box-shadow:none!important}
+/* Ignore This */
 
+
+/* Config */
 :root {
-    --text-color: #00FFFF;
+    --text-color: #ffffff;
     --menu-bg-color: rgba(255, 255, 255, 1);
-    --menu-bg-color-secondary: rgba(230, 230, 230, 1);
-    --accent-color: #00FFFF;
+    --menu-bg-color-secondary: #00000069;
+    --accent-color: #c0a7e2;
     --health-color: #fff;
     --ammo-color: #fff;
-    --premium-color: #00FFFF;
-    --verified-color: #00FFFF;
-    --ingame-bg-color: rgba(15, 15, 15, .2);
+    --premium-color: #d2ce1b;
+    --verified-color: #00f7ff;
+    --ingame-bg-color: #00000069;
     --text-transform: none;
 }
 
@@ -36,16 +40,16 @@
 }
 
 @font-face {
-	font-family: hpammo;
-	src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+    font-family: hpammo;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
 }
+
 #loadingBg {
-  background-image:url(https://cdn.discordapp.com/attachments/1018416445492830308/1025862049366028358/capycss.png);
-
+    background-image: url(https://cdn.discordapp.com/attachments/1018416445492830308/1025862049366028358/capycss.png);
 }
-#connectingBg {
-  background-image:url(https://cdn.discordapp.com/attachments/1018416445492830308/1025862049366028358/capycss.png);
 
+#connectingBg {
+    background-image: url(https://cdn.discordapp.com/attachments/1018416445492830308/1025862049366028358/capycss.png);
 }
 
 #policeButton {
@@ -57,248 +61,280 @@
 }
 
 .topRightCounters {
-	position: unset;
-	bottom: unset;
-	right: unset;
+    position: unset;
+    bottom: unset;
+    right: unset;
 }
 
 .countIcon {
-	padding: 10px;
+    padding: 10px;
 }
 
 #aHolder,#onetrust-consent-sdk {
-    display:none !important;
+    display: none !important;
 }
+
 #hiddenClasses {
-	border-style: solid;
-	border-color: var(--menu-bg-color);
-	border-radius: 10px;
+    background-color: #00000069;
+    border-style: solid;
+    border-color: var(--menu-bg-color);
+    border-radius: 10px;
     display: flex !important;
-    flex-direction:row;
-    position:fixed;
-    left:50%;
-    bottom:10%;
+    flex-direction: row;
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
     transform: translate(-50%,-50%);
     margin-right: 10px;
 }
+
 #menuClassPicker0[onclick="selectClass(0)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker0[onclick="selectClass(0)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker1[onclick="selectClass(1)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker1[onclick="selectClass(1)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker2[onclick="selectClass(2)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker2[onclick="selectClass(2)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker3[onclick="selectClass(3)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker3[onclick="selectClass(3)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker4[onclick="selectClass(4)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker4[onclick="selectClass(4)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker5[onclick="selectClass(5)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker5[onclick="selectClass(5)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker6[onclick="selectClass(6)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker6[onclick="selectClass(6)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker7[onclick="selectClass(7)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker7[onclick="selectClass(7)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker8[onclick="selectClass(8)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker8[onclick="selectClass(8)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker9[onclick="selectClass(9)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker9[onclick="selectClass(9)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker10[onclick="selectClass(10)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker10[onclick="selectClass(10)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker11[onclick="selectClass(11)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker11[onclick="selectClass(11)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker12[onclick="selectClass(12)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker12[onclick="selectClass(12)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker13[onclick="selectClass(13)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker13[onclick="selectClass(13)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 #menuClassPicker14[onclick="selectClass(14)"] {
-    display:block;
-    width:60px;
-    height:60px;
-    content:url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);    
-    pointer-events:auto;
-    image-rendering:pixelated;
-    margin-right:10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    content: url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);
+    pointer-events: auto;
+    image-rendering: pixelated;
+    margin-right: 10px;
 }
+
 #menuClassPicker14[onclick="selectClass(14)"]:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #challIcon {
     display: inline-block !important;
-	position: fixed;
+    position: fixed;
     width: 35px;
-	height: 35px;
-	left: 41%;
-	bottom: 45px;
-	filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+    height: 35px;
+    left: 41%;
+    bottom: 45px;
+    filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
 }
 
 #ammoIcon {
     display: inline-block !important;
-	position: fixed;
+    position: fixed;
     width: 35px;
-	height: 35px;
-	right: 41%;
-	bottom: 42px;
+    height: 35px;
+    right: 41%;
+    bottom: 42px;
     margin-right: 0;
-	margin-left: 0;
-	filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+    margin-left: 0;
+    filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
 }
 
 #healthValue {
-	text-align: right;
-	position: fixed;
-	width: 200px;
-	left: 28%;
-	bottom: 25px;
-	font-size: 96px;
+    text-align: right;
+    position: fixed;
+    width: 200px;
+    left: 28%;
+    bottom: 25px;
+    font-size: 96px;
 }
 
 #ammoDisplay {
-	width: 50px;
-	height: 4px;
-	top: calc(50% + 35px);
-	left: calc(50% - 25px);
-	background-image: url(https://dummyimage.com/1x1/ffffff/ffffff.png);
+    width: 50px;
+    height: 4px;
+    top: calc(50% + 35px);
+    left: calc(50% - 25px);
+    background-image: url(https://dummyimage.com/1x1/ffffff/ffffff.png);
 }
 
 #ammoVal {
@@ -311,127 +347,127 @@
 }
 
 #weapDisplay {
-	display: none !important;
+    display: none !important;
 }
 
 #reloadMsg {
-	bottom: 150px;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    bottom: 150px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 #timerDisplay {
-	width: 200px;
-	height: 80px;
-	background-color: transparent;
-	will-change: unset;
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    will-change: unset;
 }
 
 #timerVal {
-	font-size: 64px;
-	padding-left: 0;
-	will-change: unset;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    font-size: 64px;
+    padding-left: 0;
+    will-change: unset;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 #teamScores {
-	position: fixed;
-	top: 10px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 685px;
-	height: 50px;
-	padding: 10px;
-	padding-left: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	margin-left: 0;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	border-radius: 0;
-	background-color: transparent;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 685px;
+    height: 50px;
+    padding: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: transparent;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 .tScore {
-	display: inline-block;
+    display: inline-block;
 }
 
 #tScoreV1 {
-	position: fixed;
-	left: -25%;
-	top: 4px;
+    position: fixed;
+    left: -25%;
+    top: 4px;
 }
 
 #tScoreV2 {
-	position: fixed;
-	left: 25%;
-	top: 4px;
+    position: fixed;
+    left: 25%;
+    top: 4px;
 }
 
 .tScoreT {
-	width: 100%;
-	margin-top: 12px;
-	text-align: center;
-	font-size: 24px;
-	color: #fff;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
-	z-index: 2;
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    z-index: 2;
 }
 
 .tScoreM {
-	display: none;
+    display: none;
 }
 
 .tScoreF {
-	left: 50%;
-	width: 90px;
-	height: 60px;
-	margin-left: 125px;
-	margin-right: 125px;
-	padding-left: 0;
-	padding-right: 0;
-	background-color: #eb5656;
-	color: transparent;
-	opacity: 50%;
-	z-index: 1;
+    left: 50%;
+    width: 90px;
+    height: 60px;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #eb5656;
+    color: transparent;
+    opacity: 50%;
+    z-index: 1;
 }
 
 .tScoreF.you {
-	background-color: #5699eb;
-	color: transparent;
-	opacity: 50%;
-	z-index: 1;
+    background-color: #5699eb;
+    color: transparent;
+    opacity: 50%;
+    z-index: 1;
 }
 
 .tScoreC {
-	left: 50%;
-	width: 90px;
-	height: 60px;
-	margin-left: 125px;
-	margin-right: 125px;
-	background-color: var(--accent-color);
-	opacity: 50%;
-	z-index: 1;
+    left: 50%;
+    width: 90px;
+    height: 60px;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: var(--accent-color);
+    opacity: 50%;
+    z-index: 1;
 }
 
 .tScoreC.you {
-	background-color: #fff;
-	opacity: 50%;
-	z-index: 1;
+    background-color: #fff;
+    opacity: 50%;
+    z-index: 1;
 }
 
 #gameMessage {
-	top: 80px;
-	font-size: 18px;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    top: 80px;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 #ingameFPS {
-	color: #fff !important;
-	visibility: visible;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    color: #fff !important;
+    visibility: visible;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 #ingameFPS::after {
@@ -440,8 +476,8 @@
 }
 
 #pingText {
-	color: #fff !important;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    color: #fff !important;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 #pingText::after {
@@ -449,30 +485,29 @@
 }
 
 #pingIcon {
-	display: none;
+    display: none;
 }
 
 #pingDisplay .material-icons {
-	font-size: 20px;
-	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
 
 .standout {
-	visibility: shown
+    visibility: shown
 }
 
 .standout::before {
-	display: none
+    display: none
 }
 
 .standout::after {
-	display: none
+    display: none
 }
 
 /* Weapon Display, Epic One */
-
 #weapDisplay[style*="block"] {
-	display: block!important
+    display: block!important
 }
 
 #weapDisplay {
@@ -489,12 +524,12 @@
 }
 
 .weapIcon {
-	opacity: 0!Important;	
-	transition-delay: 0.3s ease-in-out
+    opacity: 0!Important;
+    transition-delay: 0.3s ease-in-out
 }
 
 .weapIcon[style*="1"] {
-	opacity: 1!important;
+    opacity: 1!important;
 }
 
 #weapIconMel {
@@ -507,24 +542,21 @@
 }
 
 /* Move Bottom Right Counter To Normal */
-
 .topRightCounters {
-	position: static;
-	bottom: auto;
-	right: auto;
-	width: 390px!important
+    position: static;
+    bottom: auto;
+    right: auto;
+    width: 390px!important
 }
 
 /* Misc */
-
 .krIconHost {
-	margin-top: -16px
+    margin-top: -16px
 }
 
 /* Check Point */
-
 #scoreZoneCount {
-	color: white !important;
+    color: white !important;
     bottom: 7px;
     font-size: 36px;
     display: flex;
@@ -533,7 +565,7 @@
 }
 
 #scoreZoneCount::after {
-	display: block;
+    display: block;
     position: fixed;
     margin-top: 1px;
     margin-left: 3px;
@@ -542,7 +574,7 @@
 }
 
 #scoreZoneCount::after {
-	content: " Point"
+    content: " Point"
 }
 
 #scoreZoneCount > i {
@@ -550,7 +582,6 @@
 }
 
 /* Host */
-
 .hostMapYear, .hostMapVersion {
     display: none
 }
@@ -568,10 +599,12 @@
     transform: translateX(-50%);
     text-align: center;
     text-shadow: 2px 2px 0px #000000;
+}
 
-}.button, .button:hover { 
+.button, .button:hover {
     border: none !important;
 }
+
 .leaderNameM span {
     background-image: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
     animation: rainbow_animation 6s ease-in-out infinite;
@@ -589,19 +622,19 @@
 }
 
 #menuItemContainer {
-	top: 25px;
-	border-style: solid;
-	border-color: var(--menu-bg-color);
-	border-radius: 10px;
-    background: transparent;
+    top: 25px;
+    border-style: solid;
+    border-color: var(--menu-bg-color);
+    border-radius: 10px;
+    background: #00000069;
 }
 
 #chatList {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 #chatInputHolder {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 #menuWindow.dark {
@@ -635,6 +668,88 @@
     margin-left: -20px;
 }
 
+#uiBase.onMenu #spectButton {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: calc(101% - 60px);
+    right: auto;
+    transform: translateX(1320%);
+    z-index: 2;
+    color: rgba(255,255,255,.5);
+    font-size: 18px;
+}
+
+#mLevelCont {
+    display: inline-block;
+    background-color: transparent;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    margin-left: 0px;
+}
+
+#settingsTabLayout, .voteHint {
+    display: none!important
+}
+
+#mapVote {
+    display: none!important
+}
+
+.menuSocialB {
+    display: none!important
+}
+
+#menuServerInfoContainer {
+    position: absolute;
+    bottom: -1170px;
+    left: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.progressBar {
+    position: absolute;
+    bottom: -52px;
+    right: -1390px;
+    width: 203%;
+    margin-top: 0;
+    height: 10px;
+    padding: 2px;
+    background: #00000069;
+    border-radius: 3px;
+}
+
+option {
+    background-color: var(--menu-bg-color-secondary);
+}
+
+#chatHolder {
+    background-color: #00000021
+}
+
+/* #menuClassContainer {
+	background: #00000069;
+    position: absolute;
+    right: -100px;
+    top: 140px;
+    bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transform: scale(.8);
+/*     z-index: 99999; */
+}
+
+*/ /* [data-freestar-ad] {
+	display:none!important;
+	z-index: -9999999999
+} */
 @keyframes rainbow_animation {
     0%,100% {
         background-position: 0 0;
@@ -645,4 +760,12 @@
     }
 }
 
-@keyframes gradient-border{0%, 200% {background-position: 0 0;}99.999999999999999% {background-position: -130% 0;}}
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: -130% 0;
+    }
+}
