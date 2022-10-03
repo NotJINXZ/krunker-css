@@ -604,6 +604,37 @@
 	background-color: transparent;
 }
 
+#menuWindow.dark {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.selectorItem {
+    background-color: transparent;
+    border: 3px solid rgba(255,255,255,.6);
+    border-radius: 5px;
+}
+
+#selectorContainer {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.settingsHeader {
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    z-index: -1;
+    background-color: transparent;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
 @keyframes rainbow_animation {
     0%,100% {
         background-position: 0 0;
