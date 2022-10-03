@@ -1,6 +1,6 @@
 /*
     CapybaraClean CSS
-    Version:    1.1.0
+    Version:    1.1.1
     Creator(s): JINXZ
 
     Links:
@@ -28,7 +28,7 @@
     --accent-color: #c0a7e2;
     --health-color: #fff;
     --ammo-color: #fff;
-    --premium-color: #d2ce1b;
+    --premium-color: #00f7ff;
     --verified-color: #00f7ff;
     --ingame-bg-color: #00000069;
     --text-transform: none;
@@ -712,10 +712,10 @@
 }
 
 .progressBar {
-    position: absolute;
-    bottom: -52px;
-    right: -1390px;
-    width: 203%;
+    position: fixed;
+    top: 110px;
+    right: 940px;
+    width: 32%;
     margin-top: 0;
     height: 10px;
     padding: 2px;
@@ -731,6 +731,16 @@ option {
     background-color: #00000021
 }
 
+.xpBarB {
+    height: 100%;
+    background-image: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+}
+
+
+element.style {
+    color: #10e591;
+}
+
 /* #menuClassContainer {
 	background: #00000069;
     position: absolute;
@@ -744,9 +754,9 @@ option {
     pointer-events: none;
     transform: scale(.8);
 /*     z-index: 99999; */
-}
 
-*/ /* [data-freestar-ad] {
+
+/* [data-freestar-ad] {
 	display:none!important;
 	z-index: -9999999999
 } */
