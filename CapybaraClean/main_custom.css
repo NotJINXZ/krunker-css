@@ -1,6 +1,6 @@
 /*
     CapybaraClean CSS
-    Version:    1.1.1
+    Version:    1.1.2
     Creator(s): JINXZ
 
     Links:
@@ -614,7 +614,7 @@
 }
 
 .menuClassPlayerClan {
-    background-image: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    background-image: linear-gradient(to right, #DC143C, #FF7F50, #FFD700, #90EE90, #00FFFF, #9932CC);
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
     color: transparent !important;
