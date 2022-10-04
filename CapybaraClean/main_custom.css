@@ -1,6 +1,6 @@
 /*
     CapybaraClean CSS
-    Version:    1.1.2
+    Version:    1.1.3
     Creator(s): JINXZ
 
     Links:
@@ -739,6 +739,23 @@ option {
 
 element.style {
     color: #10e591;
+}
+
+.settName, .settNameSmall {
+    color: rgba(255,255,255,.6)!important;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.setHed {
+    border: 3px solid rgb(255 255 255);
+    background-color: #00000069;
+    color: #fff;
+}
+
+.setHedS {
+    border: 3px solid rgb(255 255 255);
+    background-color: #00000069;
+    color: #fff;
 }
 
 /* #menuClassContainer {
